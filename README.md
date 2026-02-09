@@ -86,4 +86,10 @@ Exclusive to Defo Ads Premium subscribers:
 
 ---
 
+## Legal
+
+Copyright (c) 2025-2026 DefoAI UG (haftungsbeschränkt). All rights reserved. This documentation is provided "as is" without warranty of any kind. See [DISCLAIMER.md](DISCLAIMER.md) for the full legal disclaimer, including limitation of liability, accuracy of information, and permitted use.
+
+---
+
 *This documentation is for the latest version of Defo Ads. If you find an error or want to suggest an improvement, please [open an issue](https://github.com/defoAI/defo-ads-docs/issues).*
