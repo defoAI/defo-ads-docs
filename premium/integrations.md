@@ -1,247 +1,133 @@
-[Home](../README.md) > [Premium](README.md) > Integrations
+# Platform Integrations
 
-> **Premium Feature** — This feature requires a Defo Ads Premium subscription. [Compare plans](../getting-started/free-vs-premium.md)
+Defo Ads connects to major advertising platforms so you can manage all your campaigns from a single interface. This guide covers how to connect, manage, and troubleshoot your platform integrations.
 
-# Integrations
+![Integrations Overview](../images/integrations-multi-platform.png)
 
-The Integrations page is your central hub for managing connections to advertising platforms. Connect your ad accounts, monitor connection health, and view sync statistics — all from one place. Defo Ads is designed to work with multiple platforms through a unified interface.
+## Supported Platforms
 
----
+| Platform | Authentication | Networks |
+|----------|---------------|----------|
+| **Google Ads** | Google OAuth | Google Search, YouTube, Display Network, Shopping, Maps |
+| **Microsoft Advertising** | Azure Entra ID (OAuth) | Bing, Yahoo, DuckDuckGo, AOL |
 
-## Overview
-
-The Integrations page provides a card-based view of all available and connected advertising platforms. Each platform card shows its connection status, account details, and key statistics.
-
-Navigate to **Integrations** from the sidebar to access this page.
-
-![Integrations page overview](../images/integrations-overview.png)
+> **Note:** Microsoft Advertising integration is available on Premium plans.
 
 ---
 
-## Currently Supported Platforms
+## Connecting Google Ads
 
-### Google Ads
+### Step 1: Initiate the Connection
 
-Google Ads is the first and fully supported advertising platform in Defo Ads. The integration provides:
+1. Navigate to **Settings > Integrations**.
+2. Find the **Google Ads** card and click **Connect**.
 
-- **OAuth-based connection** — Secure authorization via Google sign-in
-- **Bidirectional sync** — Import and export campaigns, ad groups, keywords, ads, location targets, and sitelinks
-- **Performance data** — Pull click, impression, spend, and conversion metrics
-- **Multi-account support** — Connect standard accounts and Manager (MCC) accounts
-- **Real-time status** — See connection health at a glance
+### Step 2: Authorize with Google
 
-For detailed setup instructions, see [Google Ads Connection](google-ads-connection.md).
+1. A Google OAuth window will open.
+2. Sign in with the Google account associated with your Google Ads account.
+3. Review the requested permissions and click **Allow**.
 
-![Google Ads integration card](../images/integrations-google-ads-card.png)
+### Step 3: Select Your Account
 
----
+1. After authorization, Defo Ads will retrieve your available Google Ads accounts.
+2. Select the account you want to connect from the dropdown list.
+3. If you manage multiple accounts through a Manager (MCC) account, choose the specific sub-account you want to work with.
+4. Click **Confirm** to complete the connection.
 
-## Future Platforms
-
-Defo Ads is built on a platform-agnostic architecture. The following platforms are planned for future integration:
-
-### Meta Ads (Coming Soon)
-
-Manage Facebook and Instagram advertising campaigns. Connect your Meta Business account to import and export campaigns across the Meta Ads ecosystem.
-
-### Microsoft Ads (Coming Soon)
-
-Integrate with Microsoft Advertising (formerly Bing Ads) for search and display campaigns on the Microsoft Search Network.
-
-### TikTok Ads (Coming Soon)
-
-Connect your TikTok For Business account to manage video and performance campaigns on TikTok.
-
-### LinkedIn Ads (Coming Soon)
-
-Manage B2B advertising campaigns on LinkedIn, including sponsored content, message ads, and dynamic ads.
-
-![Coming soon platforms](../images/integrations-coming-soon.png)
-
-Future platform cards appear on the Integrations page with a "Coming Soon" badge. You cannot connect to these platforms yet, but their presence shows the planned roadmap.
+![Google Ads Connected](../images/integrations-google-card-connected.png)
 
 ---
 
-## Platform Card Details
+## Connecting Microsoft Advertising
 
-Each connected platform card displays the following information:
+### Step 1: Initiate the Connection
 
-### Connection Status
+1. Navigate to **Settings > Integrations**.
+2. Find the **Microsoft Advertising** card and click **Connect**.
 
-| Status | Indicator | Meaning |
-|--------|-----------|---------|
-| **Connected** | Green dot | Active and working connection |
-| **Expired** | Yellow dot | OAuth token needs refreshing |
-| **Disconnected** | Gray dot | No active connection |
-| **Error** | Red dot | Connection issue requiring attention |
+### Step 2: Authorize with Azure Entra ID
 
-### Account Information
+1. A Microsoft OAuth window will open, powered by Azure Entra ID.
+2. Sign in with the Microsoft account linked to your Microsoft Advertising account.
+3. Review the requested permissions and click **Accept**.
 
-For each connected account within a platform:
+### Step 3: Select Your Account
 
-- **Account name** — The name set in the advertising platform
-- **Account ID** — Unique identifier
-- **Account type** — Standard, Manager, etc.
-- **Campaign count** — Number of campaigns in the account
+1. After authorization, Defo Ads will retrieve your available Microsoft Advertising accounts.
+2. Select the account you want to connect.
+3. Click **Confirm** to complete the connection.
 
-### Quota Indicators
+### Microsoft Advertising Networks
 
-Some metrics related to the platform connection:
+When you connect Microsoft Advertising, your campaigns can reach users across multiple search networks:
 
-- **API usage** — Calls made against the platform API
-- **Sync status** — Last sync timestamp and result
-- **Data freshness** — How recent the performance data is
+- **Bing** — Microsoft's primary search engine
+- **Yahoo** — Syndicated search results
+- **DuckDuckGo** — Privacy-focused search engine
+- **AOL** — Syndicated search results
 
-### Sync Statistics
-
-A summary of sync activity for each connected platform:
-
-| Statistic | Description |
-|-----------|-------------|
-| **Total syncs** | Number of sync operations performed |
-| **Last sync** | Timestamp and result of the most recent sync |
-| **Entities synced** | Total campaigns, ad groups, keywords, and ads processed |
-| **Success rate** | Percentage of sync operations that completed without errors |
-
-![Platform card with statistics](../images/integrations-card-details.png)
-
----
-
-## Connecting a Platform
-
-### General Flow
-
-The connection process follows the same pattern for all platforms:
-
-1. **Click Connect** on the platform card
-2. **OAuth redirect** — You are taken to the platform's sign-in page
-3. **Authorize** — Grant Defo Ads the necessary permissions
-4. **Select accounts** — Choose which advertising accounts to connect
-5. **Confirmation** — The platform card updates to show the connected status
-
-![OAuth connection flow](../images/integrations-oauth-flow.png)
-<!-- TODO: Add screenshot of the OAuth authorization step -->
-
-### Permissions Requested
-
-Each platform requires different permissions. Generally, Defo Ads requests:
-
-- **Read access** — To import campaigns and performance data
-- **Write access** — To export and update campaigns
-- **Account management** — To list and select accounts
-
-The exact permissions are displayed during the OAuth authorization step for full transparency.
+![Microsoft Advertising Card](../images/integrations-microsoft-ads-card.png)
 
 ---
 
 ## Managing Connections
 
-### Viewing Connection Details
+### Viewing Connection Status
 
-Click on a connected platform card to expand its details or navigate to a detail view showing:
+Each connected platform displays a status indicator on the **Settings > Integrations** page:
 
-- All connected accounts with their information
-- Recent sync activity
-- Connection health and token status
-- Quick actions (reconnect, disconnect, sync now)
-
-### Reconnecting an Expired Connection
-
-When an OAuth token expires:
-
-1. The platform card shows a "Requires Reconnection" warning
-2. Click **Reconnect**
-3. Complete the sign-in flow to refresh the token
-4. All settings and history are preserved
+| Status | Indicator | Meaning |
+|--------|-----------|---------|
+| **Connected** | Green | The platform is connected and functioning normally |
+| **Requires Attention** | Yellow | The connection needs re-authorization or has a minor issue |
+| **Disconnected** | Gray | The platform is not connected |
+| **Error** | Red | The connection has failed and needs troubleshooting |
 
 ### Disconnecting a Platform
 
-To remove a platform connection:
+1. Navigate to **Settings > Integrations**.
+2. Find the connected platform card.
+3. Click the **Disconnect** button.
+4. Confirm the disconnection in the dialog.
 
-1. Click the **Disconnect** button (or find it in the card's menu)
-2. A confirmation dialog explains what will happen
-3. Confirm the disconnection
+> **Important:** Disconnecting a platform does not delete any campaigns you have already imported. It only stops synchronization with that platform.
 
-After disconnecting:
+### Reconnecting a Platform
 
-- OAuth tokens are removed
-- Sync operations stop for that platform
-- Previously imported data remains in Defo Ads
-- Performance data already fetched is preserved
-- You can reconnect at any time
+If your connection expires or encounters an error:
 
-![Disconnect confirmation](../images/integrations-disconnect-confirm.png)
+1. Navigate to **Settings > Integrations**.
+2. Click **Reconnect** on the affected platform card.
+3. Complete the authorization flow again.
+4. Your previous account selection will be restored if available.
 
----
-
-## Platform-Agnostic Design
-
-Defo Ads is designed so that your workflow remains consistent regardless of which advertising platforms you connect. This means:
-
-### Unified Campaign Management
-
-- Campaigns from all connected platforms appear in the same campaign list
-- The campaign editor uses the same interface regardless of the destination platform
-- Platform-specific fields are handled transparently
-
-### Consistent Sync Experience
-
-- The [Sync](sync.md) page works the same way for all platforms
-- [Quick Sync](quick-sync.md) remembers configurations per platform
-- [Scheduled Sync](scheduled-sync.md) can be configured independently per platform
-
-### Cross-Platform Analytics
-
-- The [Performance Dashboard](performance-dashboard.md) can display data from all connected platforms
-- KPI cards aggregate or filter by platform
-- You can compare performance across platforms
-
-### What This Means for You
-
-- Learning one platform's workflow teaches you all of them
-- Switching between platforms does not require learning new interfaces
-- Adding a new platform connection extends your existing workflow naturally
+![Disconnect Confirmation](../images/integrations-disconnect-confirm.png)
 
 ---
 
-## Integrations Page Layout
+## Troubleshooting
 
-The Integrations page is organized as follows:
+### "Authorization Failed" Error
 
-```
-+---------------------------------------------------+
-|  Integrations                        [+ Connect]  |
-+---------------------------------------------------+
-|                                                    |
-|  [Google Ads]        [Meta Ads]                   |
-|   Connected           Coming Soon                  |
-|   2 accounts                                       |
-|   Last sync: 2h ago                                |
-|                                                    |
-|  [Microsoft Ads]     [TikTok Ads]                 |
-|   Coming Soon         Coming Soon                  |
-|                                                    |
-|  [LinkedIn Ads]                                    |
-|   Coming Soon                                      |
-|                                                    |
-+---------------------------------------------------+
-```
+- Verify you are signing in with the correct account.
+- Check that your ad platform account is active and in good standing.
+- Clear your browser cookies and try again.
+- For Google Ads, ensure third-party access is not blocked in your Google Account security settings.
 
-Connected platforms appear first, followed by coming-soon platforms. This prioritizes active connections while showing the growing ecosystem.
+### "Account Not Found" Error
 
----
+- Confirm that the account you are trying to connect has active campaigns or is otherwise in good standing.
+- For Google Ads Manager (MCC) accounts, make sure the sub-account you want to connect is not suspended.
+- For Microsoft Advertising, verify your account has been fully set up in the Microsoft Advertising portal.
 
-## Tips
+### Connection Drops Frequently
 
-- **Check connection health regularly** — An expired token prevents syncs from running, including scheduled syncs
-- **Use multi-account support** — If you manage multiple businesses or brands, connect all accounts and switch between them as needed
-- **Review sync statistics** — High failure rates may indicate account issues or API changes that need attention
-- **Stay informed about new platforms** — Watch for coming-soon badges to change to "Available" as new integrations launch
+- OAuth tokens expire periodically. If your connection drops regularly, reconnect and ensure you grant all requested permissions.
+- Check that your ad platform account has not been suspended or placed under review.
+- Verify that no other third-party application has revoked Defo Ads' access.
 
----
+### Platform-Specific Limitations
 
-**Related:**
-- [Google Ads Connection](google-ads-connection.md) — Detailed Google Ads setup guide
-- [Bidirectional Sync](sync.md) — Import and export campaigns
-- [Performance Dashboard](performance-dashboard.md) — Cross-platform analytics
-- [Premium Features Overview](README.md) — All premium features
+- **Google Ads:** Some account types (e.g., accounts under certain compliance reviews) may have restricted API access.
+- **Microsoft Advertising:** Accounts must be fully verified with Microsoft before they can be connected.
