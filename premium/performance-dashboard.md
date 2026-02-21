@@ -1,258 +1,104 @@
-[Home](../README.md) > [Premium](README.md) > Performance Dashboard
-
-> **Premium Feature** — This feature requires a Defo Ads Premium subscription. [Compare plans](../getting-started/free-vs-premium.md)
-
 # Performance Dashboard
 
-The Performance Dashboard gives you a comprehensive view of your Google Ads campaign performance with interactive charts, KPI cards, campaign rankings, and an activity feed. Monitor spend, clicks, conversions, and more — all within Defo Ads.
+The Performance Dashboard provides a unified view of your advertising performance across all connected platforms. Compare metrics side by side, filter by platform, and get AI-generated insights to optimize your campaigns.
+
+## Cross-Platform Performance Overview
+
+The dashboard aggregates data from all connected platforms into a single view. At the top of the dashboard, summary cards show your total performance across all platforms:
+
+- **Total Impressions** — How many times your ads were shown across all platforms.
+- **Total Clicks** — How many clicks your ads received across all platforms.
+- **Overall CTR** — Your combined click-through rate.
+- **Total Spend** — Your total advertising spend across all platforms.
+- **Total Conversions** — Combined conversions from all platforms.
+- **Overall CPA** — Your average cost per acquisition across all platforms.
+
+These summary metrics give you a quick snapshot of your overall advertising performance without needing to check each platform individually.
+
+![Dashboard Overview](../images/dashboard-multi-platform.png)
 
 ---
 
-## Accessing the Dashboard
+## Key Metrics
 
-The Performance Dashboard is available from the sidebar under **Dashboard** or **Analytics**. If you have a connected Google Ads account with active campaigns, the dashboard loads automatically with your latest performance data.
-
-**Requirement:** You must have at least one Google Ads account connected to see performance data. See [Google Ads Connection](google-ads-connection.md) to set up your connection.
-
-![Performance Dashboard overview](../images/dashboard-overview.png)
-
----
-
-## KPI Cards
-
-At the top of the dashboard, a row of KPI cards shows your most important metrics at a glance.
-
-### Available Metrics
+The dashboard tracks the following metrics for each campaign:
 
 | Metric | Description |
 |--------|-------------|
-| **Spend** | Total advertising spend for the selected period |
-| **Clicks** | Total number of clicks on your ads |
-| **Impressions** | Total number of times your ads were shown |
-| **CTR** | Click-through rate (clicks / impressions) |
-| **Conversions** | Total conversion actions tracked |
-
-### Card Details
-
-Each KPI card includes:
-
-- **Current value** — The metric total for the selected time period
-- **Sparkline trend** — A small inline chart showing the metric's trajectory over the period
-- **Period-over-period comparison** — Percentage change compared to the previous equivalent period
-
-### Period-Over-Period Comparison
-
-The comparison shows how the current period performs against the previous one:
-
-| Color | Meaning |
-|-------|---------|
-| **Green** | Improvement (for metrics where higher is better, like clicks and conversions) |
-| **Red** | Decline (for metrics where higher is better) or increase (for cost metrics) |
-| **Gray** | No significant change or insufficient data |
-
-For example, if your CTR is 3.2% this week compared to 2.8% last week, the card shows **+14.3%** in green.
-
-![KPI cards](../images/dashboard-kpi-cards.png)
+| **Impressions** | Number of times your ads were displayed |
+| **Clicks** | Number of times users clicked on your ads |
+| **CTR (Click-Through Rate)** | Percentage of impressions that resulted in a click |
+| **Spend** | Total amount spent on the campaign |
+| **Conversions** | Number of completed conversion actions (purchases, sign-ups, etc.) |
+| **CPA (Cost Per Acquisition)** | Average cost for each conversion |
 
 ---
 
-## Period Selector
+## Platform Badges
 
-Control the time range for all dashboard data using the period selector at the top of the page.
+Campaigns in the dashboard display platform badges to indicate which platforms they are active on:
 
-### Preset Periods
+- **[G]** — The campaign is running on **Google Ads**.
+- **[M]** — The campaign is running on **Microsoft Advertising**.
 
-| Period | Description |
-|--------|-------------|
-| **Last 7 days** | The most recent week of data |
-| **Last 30 days** | The most recent month of data |
-| **Last 90 days** | The most recent quarter of data |
+A campaign can display multiple badges if it has been exported to more than one platform. Campaigns without any badge are local-only and have not been synced to any platform.
 
-### Custom Range
-
-Click **Custom** to select a specific start and end date using the date picker. This is useful for analyzing specific campaigns, promotions, or seasonal periods.
-
-When you change the period:
-
-- All KPI cards update to reflect the new range
-- Trend charts redraw with the new data
-- The top campaigns table recalculates rankings
-- Period-over-period comparisons adjust to the corresponding previous period
-
-![Period selector](../images/dashboard-period-selector.png)
+![Platform Badges on Campaigns](../images/platform-badges-campaigns.png)
 
 ---
 
-## Trend Charts
+## Platform Comparison View
 
-Below the KPI cards, interactive charts visualize your performance data over time.
+When a campaign is linked to two or more platforms, the dashboard offers a **side-by-side comparison view**:
 
-### Chart Types
+1. Click on a multi-platform campaign (one with both [G] and [M] badges).
+2. The detail view shows metrics for each platform in parallel columns.
+3. Compare impressions, clicks, CTR, spend, conversions, and CPA between Google Ads and Microsoft Advertising for the same campaign.
 
-The dashboard supports line and area charts for visualizing trends. You can toggle between them in the chart settings.
+This comparison helps you understand which platform is delivering better results for each campaign, so you can allocate budget accordingly.
 
-### Multi-Metric Overlay
-
-You can display up to 3 metrics simultaneously on a single chart:
-
-- **Primary metric** — Displayed on the left Y-axis
-- **Secondary metric** — Displayed on the right Y-axis (dual Y-axis)
-- **Third metric** — Overlaid with a distinct color and style
-
-This allows you to see correlations — for example, how spend relates to clicks and conversions over time.
-
-![Multi-metric chart](../images/dashboard-trend-chart-multi.png)
-
-### Hover Tooltips
-
-Hover over any point on the chart to see a tooltip with:
-
-- The exact date
-- The precise value for each displayed metric
-- Comparison to the previous day or period point
-
-### Interacting with Charts
-
-| Action | Result |
-|--------|--------|
-| **Hover** | Shows tooltip with exact values |
-| **Click a metric legend** | Toggles that metric on/off in the chart |
-| **Drag to zoom** | Zooms into a specific date range within the chart |
-| **Reset zoom** | Returns to the full period view |
-
-### Exporting Charts
-
-You can export any chart for use in reports and presentations:
-
-- **PNG** — High-resolution image file
-- **PDF** — Document-ready format
-
-Click the export icon in the top-right corner of the chart and select your preferred format.
-
-![Chart export options](../images/dashboard-chart-export.png)
+![Platform Comparison View](../images/platform-comparison-view.png)
 
 ---
 
-## Top Campaigns Table
+## Filtering Campaigns by Platform
 
-Below the trend charts, a ranked table shows your top-performing campaigns.
+You can filter the campaign list to show only campaigns from a specific platform:
 
-### Table Columns
+1. Use the **platform selector** at the top of the dashboard.
+2. Choose **All Platforms**, **Google Ads**, or **Microsoft Advertising**.
+3. The campaign list and summary metrics will update to reflect only the selected platform.
 
-| Column | Description |
-|--------|-------------|
-| **Rank** | Position based on the selected performance metric |
-| **Campaign Name** | Name of the campaign |
-| **Status** | Current status (Active, Paused, etc.) |
-| **Spend** | Total spend for the period |
-| **Clicks** | Total clicks |
-| **Impressions** | Total impressions |
-| **CTR** | Click-through rate |
-| **Conversions** | Total conversions |
-| **Sparkline** | Inline mini-chart showing the trend for the primary metric |
-
-### Performance Badges
-
-Each campaign receives a performance badge based on its metrics relative to your account average:
-
-| Badge | Color | Criteria |
-|-------|-------|----------|
-| **High Performer** | Green | Metrics significantly above account average |
-| **Needs Attention** | Yellow/Amber | Metrics declining or below average |
-| **Underperforming** | Red | Metrics significantly below account average |
-
-These badges provide a quick visual indicator so you can focus your attention where it matters most.
-
-![Top campaigns table](../images/dashboard-top-campaigns.png)
-
-### Sorting and Filtering
-
-- Click any column header to sort by that metric
-- Use the search bar above the table to filter by campaign name
-- Click a campaign row to navigate to that campaign's detail page
+This is useful when you want to focus on the performance of a single platform without the distraction of cross-platform data.
 
 ---
 
-## Activity Feed
+## Dashboard Platform Selector
 
-The right side of the dashboard (or below the main content on smaller screens) shows the Activity Feed — a chronological list of recent events.
+The platform selector at the top of the dashboard controls the scope of all displayed data:
 
-### Event Types
+- **All Platforms** — Shows aggregated data across all connected platforms. Summary cards combine metrics from every platform.
+- **Google Ads** — Shows only Google Ads campaigns and metrics.
+- **Microsoft Advertising** — Shows only Microsoft Advertising campaigns and metrics.
 
-| Event | Icon | Description |
-|-------|------|-------------|
-| **Import** | Download arrow | Campaigns imported from Google Ads |
-| **Export** | Upload arrow | Campaigns exported to Google Ads |
-| **Sync** | Refresh arrows | Scheduled or quick sync completed |
-| **Error** | Warning triangle | Sync or connection error occurred |
-| **Connection** | Link icon | Google Ads account connected or reconnected |
-
-### Event Details
-
-Each activity entry shows:
-
-- **Event type** icon and label
-- **Description** — What happened (e.g., "Imported 5 campaigns from My Business Account")
-- **Timestamp** — When it occurred (relative time like "2 hours ago" or absolute date)
-- **Status** — Success or failure
-
-![Activity Feed](../images/dashboard-activity-feed.png)
-
-### Scrolling and History
-
-The Activity Feed shows the most recent events first. Scroll down to see older events. The feed retains events for a configurable retention period.
+Switching the platform selector updates all dashboard components, including summary cards, the campaign list, charts, and AI insights.
 
 ---
 
-## Dashboard Layout
+## AI-Generated Insights
 
-The dashboard is organized into sections for efficient scanning:
+The Performance Dashboard includes AI-generated insights that analyze your campaign data and provide actionable recommendations. These insights take platform context into account:
 
-```
-+---------------------------------------------------+
-|  Period Selector: [7 days] [30 days] [90 days]    |
-+---------------------------------------------------+
-|  [Spend] [Clicks] [Impressions] [CTR] [Conv]     |  <- KPI Cards
-+---------------------------------------------------+
-|                                    |               |
-|  Trend Charts                      | Activity Feed |
-|  (multi-metric, interactive)       | (recent       |
-|                                    |  events)      |
-|                                    |               |
-+------------------------------------+               |
-|  Top Campaigns Table               |               |
-|  (ranked, with badges)             |               |
-+------------------------------------+---------------+
-```
+- **Cross-platform comparison** — The AI identifies campaigns that perform significantly better on one platform compared to another and suggests budget reallocation.
+- **Underperforming campaigns** — Flags campaigns with declining metrics and suggests potential causes and fixes.
+- **Budget optimization** — Recommends budget adjustments based on CPA and conversion trends across platforms.
+- **Keyword opportunities** — Identifies high-performing keywords on one platform that could be added to campaigns on another platform.
 
-On mobile devices, the layout stacks vertically with the Activity Feed appearing below the main content.
+Insights are refreshed each time you load the dashboard and are based on the most recently synced data.
 
 ---
 
-## Requirements and Limitations
+## Related
 
-### Requirements
-
-- At least one Google Ads account must be connected
-- Campaigns must have been synced (imported) to appear in analytics
-- Performance data comes from Google Ads reporting API
-
-### Data Freshness
-
-- Performance data is fetched during sync operations
-- More frequent syncs (see [Scheduled Sync](scheduled-sync.md)) result in more up-to-date data
-- There may be a slight delay (up to a few hours) between Google Ads reporting and data availability in Defo Ads
-
-### What the Dashboard Does Not Show
-
-- Real-time bidding data (Google Ads processes this internally)
-- Conversion attribution details (available in Google Ads directly)
-- Search term reports (planned for future updates)
-
----
-
-**Related:**
-- [Google Ads Connection](google-ads-connection.md) — Connect to see performance data
-- [Bidirectional Sync](sync.md) — Import campaigns and performance data
-- [Scheduled Sync](scheduled-sync.md) — Keep data fresh with automatic syncs
-- [User Profile](user-profile.md) — View account usage statistics
+- [Sync](sync.md) — Keep your performance data up to date with regular syncs
+- [Platform Integrations](integrations.md) — Connect platforms to see their data in the dashboard
