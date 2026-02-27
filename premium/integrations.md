@@ -1,6 +1,6 @@
-# Platform Integrations
+# Ad Platforms
 
-Defo Ads connects to major advertising platforms so you can manage all your campaigns from a single interface. This guide covers how to connect, manage, and troubleshoot your platform integrations.
+Defo Ads connects to major advertising platforms so you can manage all your campaigns from a single interface. The **Ad Platforms** page is a standalone view accessible from the sidebar under the **Platforms** section. This guide covers how to connect, manage, and troubleshoot your platform connections.
 
 ![Integrations Overview](../images/integrations-multi-platform.png)
 
@@ -19,7 +19,7 @@ Defo Ads connects to major advertising platforms so you can manage all your camp
 
 ### Step 1: Initiate the Connection
 
-1. Navigate to **Settings > Integrations**.
+1. Navigate to **Ad Platforms**.
 2. Find the **Google Ads** card and click **Connect**.
 
 ### Step 2: Authorize with Google
@@ -43,7 +43,7 @@ Defo Ads connects to major advertising platforms so you can manage all your camp
 
 ### Step 1: Initiate the Connection
 
-1. Navigate to **Settings > Integrations**.
+1. Navigate to **Ad Platforms**.
 2. Find the **Microsoft Advertising** card and click **Connect**.
 
 ### Step 2: Authorize with Azure Entra ID
@@ -75,7 +75,7 @@ When you connect Microsoft Advertising, your campaigns can reach users across mu
 
 ### Viewing Connection Status
 
-Each connected platform displays a status indicator on the **Settings > Integrations** page:
+Each connected platform displays a status indicator on the **Ad Platforms** page:
 
 | Status | Indicator | Meaning |
 |--------|-----------|---------|
@@ -86,7 +86,7 @@ Each connected platform displays a status indicator on the **Settings > Integrat
 
 ### Disconnecting a Platform
 
-1. Navigate to **Settings > Integrations**.
+1. Navigate to **Ad Platforms**.
 2. Find the connected platform card.
 3. Click the **Disconnect** button.
 4. Confirm the disconnection in the dialog.
@@ -97,7 +97,7 @@ Each connected platform displays a status indicator on the **Settings > Integrat
 
 If your connection expires or encounters an error:
 
-1. Navigate to **Settings > Integrations**.
+1. Navigate to **Ad Platforms**.
 2. Click **Reconnect** on the affected platform card.
 3. Complete the authorization flow again.
 4. Your previous account selection will be restored if available.

@@ -12,8 +12,12 @@ Click **Settings** in the sidebar to open the Settings page. The page is organiz
 
 - **General** — API key and AI behavior preferences
 - **Prompt Config** — Customize AI prompt templates
-- **Documentation** — Knowledge Base documents
+- **Knowledge Base** — Knowledge Base documents
+- **Team** — Team member management (Premium)
+- **Account** — Subscription, notifications, and account management (Premium)
 - **Imprint** — Legal and contact information
+
+> **Note:** Platform integrations and conversion tracking are no longer part of Settings. They have their own dedicated pages accessible from the sidebar under the **Platforms** section. See [Ad Platforms](../premium/integrations.md) and [Conversions](../premium/conversions.md).
 
 ![Settings page](../images/settings-page.png)
 
@@ -220,9 +224,11 @@ If you need to start fresh or want to remove all your data:
 Premium adds these tabs to the Settings page:
 
 - **Team** — Manage team members, invite collaborators, set permissions. See [Team Collaboration](../premium/team-collaboration.md).
-- **Account** — View subscription status, manage billing, view usage statistics, and delete your account. See [User Profile](../premium/user-profile.md).
+- **Account** — View subscription status, manage billing, configure notification preferences, and delete your account. See [User Profile](../premium/user-profile.md).
 
 Premium users also do not need to configure an OpenAI API key, as AI is fully managed through the Premium service.
+
+> **Note:** Platform integrations (Google Ads, Microsoft Advertising) are now managed from the dedicated **Ad Platforms** page in the sidebar, not from Settings. See [Ad Platforms](../premium/integrations.md).
 
 ---
 

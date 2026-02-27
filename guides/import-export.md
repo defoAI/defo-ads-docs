@@ -10,7 +10,7 @@ This guide covers how to import campaigns from your connected advertising platfo
 
 1. Navigate to **Campaigns > Import**.
 2. Select the platform you want to import from (e.g., Google Ads or Microsoft Advertising).
-3. Only platforms you have connected will appear in the list. See [Platform Integrations](../premium/integrations.md) to connect a platform.
+3. Only platforms you have connected will appear in the list. See [Ad Platforms](../premium/integrations.md) to connect a platform.
 
 ### Campaign Preview
 
@@ -132,5 +132,5 @@ The exported CSV follows the Google Ads Editor format, making it easy to open in
 
 ## Related
 
-- [Platform Integrations](../premium/integrations.md) — Connect your ad platforms
+- [Ad Platforms](../premium/integrations.md) — Connect your ad platforms
 - [Sync](../premium/sync.md) — Keep platforms in sync after import/export

@@ -45,7 +45,7 @@ See [Subscription & Billing](../premium/subscription.md) for plan details.
 
 ## Step 3: Connect Google Ads
 
-1. Go to **Integrations** in the sidebar
+1. Go to **Ad Platforms** in the sidebar (under the **Platforms** section)
 2. Click **"Connect"** next to Google Ads
 3. Sign in with your Google account and authorize access
 4. Select which Google Ads accounts to connect (supports multiple accounts and MCC)

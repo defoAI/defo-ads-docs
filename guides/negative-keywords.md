@@ -20,7 +20,7 @@ Negative keywords let you exclude these irrelevant searches so you:
 
 ## Accessing Negative Keywords
 
-Open the **Negative Keywords** page from the sidebar. You'll see three tabs at the top:
+Navigate to **Keywords** in the sidebar, then click the **Negative Keywords** tab at the top of the page. You'll see three sub-tabs:
 
 1. **Lists Manager** — Create and manage negative keyword lists
 2. **Conflict Detector** — Check for conflicts between negative and positive keywords

@@ -21,7 +21,12 @@ Keywords are the bridge between what people search for and the ads you show them
 
 ## Keywords List View
 
-Navigate to **Keywords** in the sidebar to see all keywords across all campaigns and ad groups.
+Navigate to **Keywords** in the sidebar to open the Keywords page. This page has two tabs:
+
+- **Keywords** — View and manage all positive keywords across all campaigns and ad groups
+- **Negative Keywords** — Manage negative keyword lists and detect conflicts (see [Negative Keywords](negative-keywords.md))
+
+The Keywords tab is selected by default.
 
 ![Keywords list view](../images/keywords-list.png)
 

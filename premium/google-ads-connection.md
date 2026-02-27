@@ -20,11 +20,11 @@ Before connecting Google Ads to Defo Ads, make sure you have:
 
 ## Connecting Your Google Ads Account
 
-### Step 1: Open the Integrations Page
+### Step 1: Open the Ad Platforms Page
 
-Navigate to the **Integrations** page from the sidebar menu. This page shows all available platform connections.
+Click **Ad Platforms** in the sidebar (under the **Platforms** section). This page shows all available platform connections.
 
-![Integrations page](../images/google-ads-integrations-page.png)
+![Ad Platforms page](../images/google-ads-integrations-page.png)
 
 ### Step 2: Click Connect
 
@@ -60,7 +60,7 @@ Select the accounts you want to connect and click **Confirm**.
 
 ### Step 6: Connection Complete
 
-Once connected, the Integrations page updates to show your connected account(s) with their details.
+Once connected, the Ad Platforms page updates to show your connected account(s) with their details.
 
 ---
 
@@ -97,7 +97,7 @@ Defo Ads supports connecting multiple Google Ads accounts simultaneously. This i
 
 ### Connecting Additional Accounts
 
-1. Go to the **Integrations** page
+1. Go to **Ad Platforms** in the sidebar
 2. Click **Connect Another Account** (or the connect button if adding a different Google account)
 3. Complete the OAuth flow with the additional Google account
 4. Select the accounts to add
@@ -114,7 +114,7 @@ When performing syncs or viewing performance data, you can select which connecte
 
 ## Account Information
 
-For each connected account, the Integrations page displays:
+For each connected account, the Ad Platforms page displays:
 
 | Field | Description |
 |-------|-------------|
@@ -135,13 +135,13 @@ OAuth tokens have an expiration period. If your connection expires, you need to 
 
 ### Signs Your Connection Has Expired
 
-- A warning banner appears on the Integrations or Sync page
+- A warning banner appears on the Ad Platforms or Sync page
 - The account status changes to "Expired" or "Requires Reconnection"
 - Sync operations fail with an authentication error
 
 ### How to Reconnect
 
-1. Go to the **Integrations** page
+1. Go to **Ad Platforms** in the sidebar
 2. Find the account with the expired connection
 3. Click **Reconnect**
 4. Complete the Google sign-in and authorization flow again
@@ -157,7 +157,7 @@ Reconnecting preserves all your sync history and settings. You do not need to re
 
 To remove a Google Ads connection from Defo Ads:
 
-1. Go to the **Integrations** page
+1. Go to **Ad Platforms** in the sidebar
 2. Find the account you want to disconnect
 3. Click **Disconnect** (or the menu icon and select "Disconnect")
 4. Confirm the disconnection in the dialog
@@ -206,7 +206,7 @@ To remove a Google Ads connection from Defo Ads:
 **Cause:** Your OAuth token has expired since you last connected.
 
 **Solution:**
-- Go to the Integrations page and click **Reconnect** on the affected account
+- Go to the Ad Platforms page and click **Reconnect** on the affected account
 - Complete the sign-in flow to refresh the token
 
 ### Connection Works but No Campaigns Found
@@ -229,7 +229,7 @@ To remove a Google Ads connection from Defo Ads:
 ---
 
 **Related:**
-- [Integrations](integrations.md) — Manage all platform connections
+- [Ad Platforms](integrations.md) — Manage all platform connections
 - [Bidirectional Sync](sync.md) — Import and export campaigns
 - [Quick Sync](quick-sync.md) — One-click sync for returning users
 - [Troubleshooting](../troubleshooting/) — More troubleshooting guides

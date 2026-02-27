@@ -162,7 +162,7 @@ The dashboard is designed as a launching pad. Here are the most common paths:
 | Stats card | List view | Click the card |
 | Recent activity item | Detail view | Click the item |
 | Quick action button | Creation wizard | Click the button |
-| Connection banner | Google Ads settings | Click **Connect** or account name |
+| Connection banner | Ad Platforms page | Click **Connect** or account name |
 | Analytics campaign row | Campaign detail | Click the row |
 
 ---
