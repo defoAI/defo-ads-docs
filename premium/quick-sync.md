@@ -74,7 +74,7 @@ If a Quick Sync encounters errors:
 
 | Error | Cause | Fix |
 |-------|-------|-----|
-| Authorization expired | OAuth token has expired | Reconnect the platform in Settings > Integrations |
+| Authorization expired | OAuth token has expired | Reconnect the platform on the Ad Platforms page |
 | Rate limit exceeded | Too many API requests in a short period | Wait a few minutes and try again |
 | Network timeout | Connectivity issue | Check your internet connection and retry |
 | Validation error | A campaign has data incompatible with the target platform | Review the error details and fix the flagged entities |
@@ -85,6 +85,6 @@ If a Quick Sync encounters errors:
 
 - [Sync](sync.md) — Full sync documentation including per-platform sync and conflict resolution
 - [Scheduled Sync](scheduled-sync.md) — Automatic background synchronization
-- [Platform Integrations](integrations.md) — Connect and manage your platforms
+- [Ad Platforms](integrations.md) — Connect and manage your platforms
 
 ![Quick Sync History](../images/quick-sync-history.png)
