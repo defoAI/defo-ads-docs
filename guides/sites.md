@@ -57,6 +57,7 @@ Click the **"Analyze with AI"** button. Defo Ads will visit your website and use
 
 - **Description** — A summary of what your website/business does
 - **SEO Keywords** — Relevant keywords found on your site
+- **Target Groups** — Audience segments your site serves (auto-generated from the description)
 - **Sitelinks** — Internal pages that could be used as ad sitelinks (e.g., About, Pricing, Contact)
 - **Logo** — Your site's logo, auto-detected from meta tags or favicon
 
@@ -71,6 +72,7 @@ Once the analysis completes, review the extracted information:
 - Edit the **name** (defaults to your site's title)
 - Refine the **description** if the AI summary needs tweaking
 - Add or remove **keywords**
+- Review **target groups** — audience segments that help AI generate targeted content
 - Review the **sitelinks** — remove any that are not relevant for advertising
 - Confirm the **logo** — if auto-detection missed it, you can upload one manually
 
@@ -100,13 +102,14 @@ The General tab shows the core information about your site:
 | **URL** | Website address (read-only after creation) |
 | **Description** | AI-generated or manually written description of the site |
 | **Keywords** | SEO keywords associated with the site |
+| **Target Groups** | Audience segments your site targets (e.g., "Small business owners, E-commerce managers"). Used by AI when generating ads and keywords for campaigns linked to this site. Type a target group and press Enter to add it. |
 | **Logo** | Site logo image |
 
 ![Site general tab](../images/site-general-tab.png)
 
 ### Sitelinks Tab
 
-Sitelinks are links to specific pages on your website (e.g., "Pricing", "About Us", "Contact"). They appear below your ads in Google Search results and give users more ways to reach your content.
+Sitelinks are links to specific pages on your website (e.g., "Pricing", "About Us", "Contact"). They appear below your ads in search results and give users more ways to reach your content.
 
 Each sitelink has:
 

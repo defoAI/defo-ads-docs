@@ -17,11 +17,11 @@ Premium takes Defo Ads beyond local campaign drafting and gives you a connected,
 | Feature | Description | Learn More |
 |---------|-------------|------------|
 | **Google Ads Connection** | Connect your Google Ads accounts via OAuth for seamless integration | [Google Ads Connection](google-ads-connection.md) |
-| **Microsoft Advertising** | Connect Microsoft Advertising for Bing, Yahoo, DuckDuckGo reach | [Ad Platforms](integrations.md) |
+| **Microsoft Advertising** | Connect Microsoft Advertising for Bing, Yahoo, DuckDuckGo reach | [Connections](integrations.md) |
 | **Bidirectional Sync** | Import campaigns from Google Ads and export your drafts back | [Sync](sync.md) |
 | **Quick Sync** | One-click sync that remembers your last configuration | [Quick Sync](quick-sync.md) |
 | **Scheduled Sync** | Automatic background syncs on a configurable schedule | [Scheduled Sync](scheduled-sync.md) |
-| **Ad Platforms** | Manage all connected advertising platforms from one dedicated page | [Ad Platforms](integrations.md) |
+| **Connections** | Manage all connected advertising platforms from one dedicated page | [Connections](integrations.md) |
 | **Conversions** | Track and manage conversion actions across platforms | [Conversions](conversions.md) |
 
 ### AI & Content

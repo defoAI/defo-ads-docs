@@ -30,15 +30,24 @@ The Keywords tab is selected by default.
 
 ![Keywords list view](../images/keywords-list.png)
 
+### Summary Statistics
+
+At the top of the Keywords tab, summary cards display:
+
+- **Total keywords** — All keywords across all campaigns
+- **Active** — Keywords with Enabled status
+- **Paused** — Keywords with Paused status
+
 ### What You See
 
 | Column | Description |
 |--------|-------------|
-| **Keyword** | The keyword text |
-| **Match Type** | Broad, Phrase, or Exact |
-| **Campaign** | The parent campaign |
-| **Ad Group** | The parent ad group |
-| **Status** | Enabled or Paused |
+| **Keyword** | The keyword text (click to open the keyword detail page) |
+| **Match Type** | Broad, Phrase, or Exact (shown as a chip) |
+| **Campaign** | The parent campaign (clickable link) |
+| **Ad Group** | The parent ad group (clickable link) |
+| **Status** | Enabled or Paused (with icon) |
+| **Created** | Creation date and time |
 
 ### Filtering
 
@@ -51,6 +60,12 @@ Use the filter controls to narrow down the list:
 ![Keywords filtered](../images/keywords-filtered.png)
 
 Filters stack: selecting a campaign shows only its ad groups in the ad group filter, making it easy to drill down to exactly the keywords you need.
+
+### Actions
+
+- **Create Keyword** — Click to open the keyword creation dialog (see [Adding Keywords](#adding-keywords) below)
+- **Import** — Import keywords from a file
+- **Download** — Export your keywords as JSON
 
 ### Bulk Actions
 
@@ -84,9 +99,18 @@ For a detailed guide with more examples, strategies, and recommendations, see th
 
 ## Adding Keywords
 
-You can add keywords to an ad group in two ways.
+You can add keywords in several ways.
 
-### Manually
+### From the Keywords List
+
+1. Go to **Keywords** in the sidebar
+2. Click **"Create Keyword"**
+3. In the creation dialog, enter the keyword text
+4. Select the match type (Broad, Phrase, or Exact)
+5. Choose the parent campaign and ad group
+6. Click **"Save"**
+
+### From an Ad Group
 
 1. Navigate to an ad group detail view (from the ad groups list or from a campaign)
 2. Go to the **Keywords** tab
@@ -104,14 +128,19 @@ You can add multiple keywords at once by entering one keyword per line in the te
 1. From the ad group's Keywords tab, click **"Generate with AI"**
 2. The AI generates relevant keywords based on:
    - The ad group's theme and existing keywords
-   - The campaign's linked site (description, SEO keywords)
-   - The campaign goals
-3. Review the suggested keywords
-4. Select the ones you want to keep and click **"Add Selected"**
+   - The campaign's linked site (description, SEO keywords, target groups)
+   - The campaign goals and languages
+3. You can customize generation parameters:
+   - **Count** — Number of keywords to generate (default: 10)
+   - **Match Type filter** — Generate all types, or only Broad, Phrase, or Exact
+   - **Custom instructions** — Additional guidance for the AI
+4. Review the suggested keywords in a preview table
+5. Keywords that already exist in the ad group are automatically excluded
+6. Click **"Approve & Add X Keywords"** to add them all at once
 
 ![Generate keywords with AI](../images/keyword-generate-ai.png)
 
-> **Tip:** AI-generated keywords are a great starting point. Review them carefully and remove any that are not relevant to your specific offering. Quality is more important than quantity.
+> **Tip:** AI-generated keywords are a great starting point. The AI automatically deduplicates against existing keywords, so you can generate multiple batches without worrying about duplicates.
 
 ---
 
@@ -180,15 +209,39 @@ Ad Group: "Shoes"
 
 ---
 
-## Editing Keywords
+## Keyword Detail Page
 
-To edit a keyword's text or match type:
+Click any keyword in the list to open its dedicated detail page.
 
-1. Click the keyword in the list to open its detail view
-2. Modify the keyword text or change the match type
-3. Click **"Save"**
+### Header
 
-> **Note:** Changing a keyword's text effectively creates a new keyword from Google Ads' perspective. The original keyword's performance history will not carry over.
+The detail page header shows:
+- Back button to the keywords list
+- Breadcrumb navigation: **Keywords > [Keyword Text]**
+- The keyword text as the page title
+- Status chip (Enabled/Paused) and Match Type chip (Broad/Phrase/Exact)
+
+### General Tab
+
+The General tab displays keyword settings in an editable form:
+
+| Field | Description |
+|-------|-------------|
+| **Status** | Toggle between Enabled and Paused |
+| **Keyword Text** | The search term that triggers your ads |
+| **Match Type** | Broad, Phrase, or Exact (dropdown) |
+| **Max CPC** | Maximum cost-per-click bid for this keyword |
+| **Ad Group** | Parent ad group (clickable link) |
+| **Campaign** | Parent campaign (clickable link) |
+| **Created / Updated** | Timestamps |
+
+To edit, click the **"Edit"** button. This enables the form fields. Make your changes and click **"Save"**, or click **"Cancel"** to discard. If you navigate away with unsaved changes, a warning dialog will appear.
+
+### JSON Tab
+
+The JSON tab shows the raw data structure of the keyword for debugging or advanced inspection.
+
+> **Note:** Changing a keyword's text effectively creates a new keyword from your ad platform's perspective. The original keyword's performance history will not carry over.
 
 ---
 

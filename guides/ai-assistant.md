@@ -151,6 +151,37 @@ Operations that only read data execute immediately without requiring approval. T
 
 ---
 
+## AI Suggestion Chips
+
+Below the chat, the assistant displays **context-aware suggestion chips** — clickable prompts that suggest relevant actions based on your current context. For example, when viewing a campaign, you might see chips like:
+
+- "Generate keywords for this ad group"
+- "Review ad copy quality"
+- "Show campaign performance"
+
+Each chip has a category icon (diagnostic, creative, structural, optimization, educational, or administrative) and shows the full suggestion text on hover. Click a chip to send it as your message — no typing needed.
+
+Suggestion chips update as you navigate between pages and are a quick way to discover what the assistant can do in your current context.
+
+<!-- TODO: Add screenshot of suggestion chips -->
+
+---
+
+## Live Activity Feed
+
+While the AI assistant is working on your request, a **live activity feed** replaces the static "thinking..." indicator. The feed shows each step the assistant is performing in real time:
+
+- Colored activity icons indicate the type of operation
+- Platform chips show which ad platform is involved (if applicable)
+- Relative timestamps (e.g., "2 seconds ago")
+- Unread items are highlighted
+
+This gives you visibility into exactly what the assistant is doing, especially during complex multi-step operations like campaign creation or sync.
+
+<!-- TODO: Add screenshot of activity feed -->
+
+---
+
 ## Context Awareness
 
 The AI Assistant is aware of your current context within Defo Ads, which makes interactions more efficient and relevant.
@@ -164,6 +195,8 @@ The AI Assistant is aware of your current context within Defo Ads, which makes i
 | **Available sites** | Knows your configured sites for targeting suggestions |
 | **Subscription plan** | Can tell you about your plan limits, usage, and trial status |
 | **Knowledge base** | Has access to product documentation and advertising best practices |
+| **Connected platforms** | Knows which ad platforms are connected and their status |
+| **Sync history** | Can look up recent sync records and their results |
 
 ### Context in Practice
 

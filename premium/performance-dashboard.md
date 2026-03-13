@@ -101,4 +101,4 @@ Insights are refreshed each time you load the dashboard and are based on the mos
 ## Related
 
 - [Sync](sync.md) — Keep your performance data up to date with regular syncs
-- [Ad Platforms](integrations.md) — Connect platforms to see their data in the dashboard
+- [Connections](integrations.md) — Connect platforms to see their data in the dashboard
