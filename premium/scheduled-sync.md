@@ -110,4 +110,4 @@ This log is useful for diagnosing issues or verifying that scheduled syncs are r
 
 - [Sync](sync.md) — Full sync documentation including manual sync and conflict resolution
 - [Quick Sync](quick-sync.md) — One-click sync for immediate updates
-- [Ad Platforms](integrations.md) — Connect and manage your platforms
+- [Connections](integrations.md) — Connect and manage your platforms

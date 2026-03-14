@@ -2,6 +2,10 @@
 
 This guide covers how to import campaigns from your connected advertising platforms into Defo Ads, and how to export campaigns from Defo Ads to those platforms. It also covers CSV-based import and export for offline editing.
 
+> **How to access Import / Export:**
+> - **Free version:** Click **Import / Export** in the sidebar.
+> - **Premium:** Go to **Sync** in the sidebar, then click **Open Import / Export** at the bottom of the Sync page. You can also navigate directly to `/import-export`.
+
 ---
 
 ## Importing Campaigns from Platforms
@@ -10,7 +14,7 @@ This guide covers how to import campaigns from your connected advertising platfo
 
 1. Navigate to **Campaigns > Import**.
 2. Select the platform you want to import from (e.g., Google Ads or Microsoft Advertising).
-3. Only platforms you have connected will appear in the list. See [Ad Platforms](../premium/integrations.md) to connect a platform.
+3. Only platforms you have connected will appear in the list. See [Connections](../premium/integrations.md) to connect a platform.
 
 ### Campaign Preview
 
@@ -132,5 +136,5 @@ The exported CSV follows the Google Ads Editor format, making it easy to open in
 
 ## Related
 
-- [Ad Platforms](../premium/integrations.md) — Connect your ad platforms
+- [Connections](../premium/integrations.md) — Connect your ad platforms
 - [Sync](../premium/sync.md) — Keep platforms in sync after import/export

@@ -31,7 +31,7 @@ When a sync completes with errors, the dialog remains open so you can review wha
 
 **Solution:**
 
-1. Go to **Ad Platforms** in the sidebar
+1. Go to **Connections** in the sidebar
 2. Find the Google Ads connection
 3. Click **Reconnect** to re-authenticate with your Google account
 4. Grant the requested permissions
@@ -55,7 +55,7 @@ When a sync completes with errors, the dialog remains open so you can review wha
    - Log in to [ads.google.com](https://ads.google.com) directly
    - Check that the account ID matches what is configured in Defo Ads
 2. If the account belongs to a manager (MCC) account, ensure your user has the appropriate permissions
-3. Go to **Ad Platforms** in Defo Ads and check that the correct account is selected
+3. Go to **Connections** in Defo Ads and check that the correct account is selected
 4. Reconnect if needed
 
 ---
@@ -219,7 +219,7 @@ Use the error report to share with support, compare across sync attempts, or doc
 Follow these steps before syncing to minimize errors:
 
 1. **Run validation first.** Use the [Validation](../guides/validation.md) feature to check for errors before syncing.
-2. **Check your Google Ads connection.** Go to **Ad Platforms** in the sidebar and verify the connection is active.
+2. **Check your Google Ads connection.** Go to **Connections** in the sidebar and verify the connection is active.
 3. **Start with a small batch.** If you have many campaigns, sync a few first to catch issues early.
 4. **Review campaign structure.** Ensure each campaign has at least one ad group, each ad group has at least one ad and one keyword.
 5. **Check character limits.** Verify all headlines, descriptions, and paths are within [specification limits](../reference/ad-specifications.md).

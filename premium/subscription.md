@@ -78,13 +78,28 @@ Higher-tier plans unlock access to more capable AI models. The available models 
 1. **Automatic activation** — When you create a Defo Ads account, a free trial is activated immediately
 2. **No credit card needed** — You can explore all premium features without entering payment information
 3. **Full feature access** — The trial includes access to all premium features with reduced quotas
-4. **Countdown visible** — Your trial expiration date is shown on the [User Profile](user-profile.md) page
+4. **Countdown visible** — Your trial expiration date is shown on the [User Profile](user-profile.md) page and in the **Plan Status Indicator** in the top navigation bar
+
+### Plan Status Indicator
+
+The top navigation bar displays your current plan status at all times:
+
+- **Free Plan** — Gray icon with "Free Plan" label
+- **Trial (7+ days remaining)** — Green indicator with days remaining (e.g., "Pro Trial · 14 days left")
+- **Trial (3-7 days)** — Amber/warning color
+- **Trial (< 3 days)** — Red with pulsing dot animation (e.g., "Pro Trial · 2 days left")
+- **Trial Expired** — Red warning icon with "Trial Expired · Upgrade" link
+- **Active Paid Plan** — Green indicator with plan name and renewal date (e.g., "Pro Plan · Renews March 15, 2026")
+
+Click the plan status indicator at any time to navigate to the plan selection page.
+
+<!-- TODO: Add screenshot of plan status indicator in nav bar -->
 
 ### During Your Trial
 
 While the trial is active, you can:
 
-- Connect Google Ads accounts and sync campaigns
+- Connect Google Ads and Microsoft Advertising accounts and sync campaigns
 - Use managed AI for ad copy generation
 - Access the performance dashboard
 - Try the AI assistant

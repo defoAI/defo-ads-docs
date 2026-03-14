@@ -41,6 +41,10 @@ The General tab contains all the core campaign settings.
 
 The display name for your campaign. Click the name to edit it directly. Use a descriptive name that helps you identify the campaign at a glance (e.g., "UK - Running Shoes - Search" rather than "Campaign 1").
 
+### Campaign Goal
+
+A text field describing what this campaign aims to achieve. The AI uses this when generating ads and keywords. Be specific for better results (e.g., "Drive sign-ups for our free trial of the project management tool, targeting small business owners").
+
 ### Budget
 
 Set your daily advertising budget:
@@ -55,13 +59,41 @@ Set your daily advertising budget:
 
 Enter the daily amount and the weekly and monthly estimates update in real time.
 
-> **Tip:** Google Ads may spend up to twice your daily budget on high-traffic days, but will not exceed your monthly limit (daily budget x 30.4). The estimates shown here reflect this standard Google Ads behavior.
+> **Tip:** Ad platforms may spend up to twice your daily budget on high-traffic days, but will not exceed your monthly limit (daily budget x 30.4).
+
+#### Budget Cap (Premium)
+
+Premium users can set a **global budget cap** that limits total daily spending across all campaigns. Access the Budget Advisor from the sidebar to:
+
+- Set a **daily or monthly budget limit**
+- Choose a **distribution strategy**:
+  - **Split equally** — Distributes the budget evenly across all active campaigns
+  - **Manual** — Set per-campaign budgets using an inline editing grid
+- **Preview changes** before applying — see how the budget will be allocated
+- **Undo** — Revert the last budget cap application
+- View **spending trends** against your cap over time
+
+<!-- TODO: Add screenshot of Budget Advisor view -->
+
+### Bidding Strategy
+
+Select how your ad platform should bid on your behalf. The default is **Maximize Clicks**, which gets the most clicks within your budget. Available strategies:
+
+| Strategy | Description |
+|----------|-------------|
+| **Manual CPC** | You set the max CPC for each keyword |
+| **Maximize Clicks** | Get the most clicks within your budget (default) |
+| **Maximize Conversions** | Get the most conversions within your budget |
+| **Maximize Conversion Value** | Get the highest conversion value within your budget |
+| **Target CPA** | Set a target cost per conversion |
+| **Target ROAS** | Set a target return on ad spend |
+| **Target Impression Share** | Show ads a certain percentage of the time |
 
 ### Status Toggle
 
 Switch the campaign between **Enabled** and **Paused**.
 
-- **Enabled** — The campaign will be active when uploaded or synced to Google Ads
+- **Enabled** — The campaign will be active when synced to your ad platform
 - **Paused** — The campaign will remain paused
 
 When you toggle from Enabled to Paused (or vice versa), a confirmation dialog appears to prevent accidental changes.
@@ -74,13 +106,13 @@ Displays the campaign type (Search, Display, Video, Shopping, or Performance Max
 
 ### Networks
 
-Control where your ads appear within Google's advertising ecosystem:
+Control where your ads appear:
 
 | Network | Description |
 |---------|-------------|
-| **Google Search** | Ads appear on Google Search results pages |
-| **Search Partners** | Ads also appear on Google's search partner sites |
-| **Display Network** | Ads appear on websites, apps, and videos in Google's Display Network |
+| **Search** | Ads appear on search results pages (Google Search, Bing, etc.) |
+| **Search Partners** | Ads also appear on search partner sites |
+| **Display Network** | Ads appear on websites, apps, and videos in display networks |
 
 Toggle each network on or off depending on your strategy.
 
@@ -111,7 +143,7 @@ Click the **remove** icon next to any location to stop targeting it.
 
 ### Languages
 
-Select the languages your target audience speaks. This helps Google show your ads to users whose language settings match.
+Select the languages your target audience speaks. This helps ad platforms show your ads to users whose language settings match.
 
 You can select multiple languages. The default is determined by your target locations.
 

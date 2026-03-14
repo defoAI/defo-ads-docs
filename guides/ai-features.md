@@ -180,40 +180,6 @@ You can re-enable it anytime.
 
 ---
 
-## Prompt Editor
-
-Every AI feature in Defo Ads uses a **prompt template** — the instructions sent to the AI model. You can customize these prompts to change how AI generates content.
-
-### Accessing the Prompt Editor
-
-1. Go to **Settings > Prompt Config**
-2. You'll see a list of all prompt templates used throughout the app
-3. Click any prompt to open it in the editor
-
-![Prompt editor](../images/ai-prompt-editor.png)
-
-### Editing a Prompt
-
-1. Click a prompt template to open it
-2. Modify the prompt text as needed
-3. Use **available placeholders** (context variables) to insert dynamic data:
-   - `{campaignGoals}` — The campaign's goals
-   - `{siteDescription}` — The linked site's description
-   - `{adGroupName}` — The current ad group's name
-   - `{keywords}` — Keywords in the current ad group
-   - Other placeholders are listed in the editor for each prompt
-4. Click **"Save"**
-
-### Managing Customized Prompts
-
-- **"Customized" badge** — Modified prompts show a badge so you can tell which ones you've changed
-- **Reset individual prompt** — Click the reset icon on any prompt to restore the default
-- **Reset all prompts** — Use the "Reset All" button to restore all prompts to their defaults
-
-> **Tip:** If AI output quality drops after editing a prompt, use the reset button to go back to the tested default.
-
----
-
 ## Knowledge Base
 
 The Knowledge Base lets you add custom documents that give AI additional context about your business. When AI generates content, it references these documents to produce more relevant, on-brand results.
@@ -247,7 +213,7 @@ This is covered in detail in the [Knowledge Base](knowledge-base.md) guide.
 
 **Related:**
 - [Knowledge Base](knowledge-base.md) — Add custom documents for AI context
-- [Settings](settings.md) — Configure AI keys and prompt templates
+- [Settings](settings.md) — Configure AI provider and preferences
 - [Ads](ads.md) — Create and edit responsive search ads
 - [Campaigns](campaigns.md) — Create and manage advertising campaigns
 - [AI Assistant](ai-assistant.md) — Chat-based campaign management

@@ -2,7 +2,7 @@
 
 # Campaigns
 
-Campaigns are the top-level container for your Google Ads advertising. Each campaign groups together ad groups, ads, and keywords around a specific marketing goal.
+Campaigns are the top-level container for your advertising. Each campaign groups together ad groups, ads, and keywords around a specific marketing goal. Campaigns can be linked to one or more ad platforms (Google Ads, Microsoft Advertising) for syncing.
 
 ---
 
@@ -57,11 +57,11 @@ Select the type of campaign you want to create:
 
 | Type | Best For |
 |------|----------|
-| **Search** | Text ads on Google Search results. The most common type. |
-| **Display** | Banner and image ads across Google's Display Network |
+| **Search** | Text ads on search results (Google, Bing). The most common type. |
+| **Display** | Banner and image ads across display networks |
 | **Video** | Video ads on YouTube and partner sites |
 | **Shopping** | Product listing ads for e-commerce |
-| **Performance Max** | AI-optimized ads across all Google channels |
+| **Performance Max** | AI-optimized ads across all channels |
 
 > **Tip:** If you are unsure, start with **Search**. It is the most straightforward campaign type and works well for most businesses. See the [Campaign Types Reference](../reference/campaign-types.md) for detailed descriptions of each type.
 
@@ -192,14 +192,14 @@ This is useful when you want to run similar campaigns for different products, au
 
 ## Campaign Status
 
-Every campaign has a status that controls whether it will be active when uploaded to Google Ads:
+Every campaign has a status that controls whether it will be active when synced to your ad platform:
 
 | Status | Meaning |
 |--------|---------|
-| **Enabled** | Campaign is active and will run when uploaded to Google Ads |
+| **Enabled** | Campaign is active and will run when synced to your ad platform |
 | **Paused** | Campaign is paused and will not run |
 
-> **Note:** Status in Defo Ads is a planning tool. Campaigns are not live on Google Ads until you export and upload them (free) or sync them (Premium). Changing status here prepares the campaign for its intended state in Google Ads.
+> **Note:** Status in Defo Ads is a planning tool. Campaigns are not live on your ad platform until you export them (free) or sync them (Premium). Changing status here prepares the campaign for its intended state.
 
 New campaigns default to **Paused** so you can review and refine before enabling.
 
@@ -214,7 +214,7 @@ Once your campaign is created, you can:
 - **Edit ads** — Refine headlines, descriptions, preview appearance. See [Ads](ads.md).
 - **Manage keywords** — Add, remove, or change match types. See [Keywords](keywords.md).
 - **Validate** — Check for errors and warnings before going live. See [Validation](validation.md).
-- **Export** — Download for Google Ads Editor (free) or sync to Google Ads (Premium). See [Import & Export](import-export.md).
+- **Export or Sync** — Download for offline editing (free) or sync to your ad platforms (Premium). See [Import & Export](import-export.md) or [Sync](../premium/sync.md).
 
 ---
 

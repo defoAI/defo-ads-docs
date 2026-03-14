@@ -224,7 +224,7 @@ Role changes take effect immediately. The affected member's permissions update w
 ### Getting Started
 
 1. Have the team admin set up the Defo Ads account with a premium subscription
-2. Connect Google Ads accounts from the [Ad Platforms](integrations.md) page
+2. Connect Google Ads accounts from the [Connections](integrations.md) page
 3. Import existing campaigns via [Sync](sync.md)
 4. Invite team members with appropriate roles
 5. Share relevant campaigns with each member
@@ -268,4 +268,4 @@ Team members access premium features through the team's subscription. They do no
 - [User Profile](user-profile.md) — Manage your individual account
 - [Subscription & Billing](subscription.md) — Team plan details
 - [Premium Features Overview](README.md) — All premium features
-- [Ad Platforms](integrations.md) — Connect advertising platforms for the team
+- [Connections](integrations.md) — Connect advertising platforms for the team

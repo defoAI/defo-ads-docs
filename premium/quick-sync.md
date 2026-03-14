@@ -4,7 +4,7 @@ Quick Sync lets you sync your campaigns with all connected platforms in a single
 
 ## What Quick Sync Does
 
-Quick Sync performs an immediate synchronization between Defo Ads and all your connected advertising platforms. It pushes your latest local changes to each platform and pulls in any changes made directly on those platforms since the last sync.
+Quick Sync performs an immediate sync between Defo Ads and all your connected advertising platforms. It pushes your latest local changes to each platform and pulls in any changes made directly on those platforms since the last sync.
 
 This is the fastest way to ensure your campaigns are up to date across all platforms.
 
@@ -18,7 +18,7 @@ When you trigger a Quick Sync, it syncs with **all connected platforms simultane
 
 - If you have Google Ads and Microsoft Advertising connected, Quick Sync will sync with both at the same time.
 - Each platform syncs independently, so a delay or error on one platform does not block the other.
-- The sync is bidirectional — local changes are exported and remote changes are imported.
+- The sync is bidirectional — local changes are pushed and remote changes are pulled.
 
 ---
 
@@ -74,7 +74,7 @@ If a Quick Sync encounters errors:
 
 | Error | Cause | Fix |
 |-------|-------|-----|
-| Authorization expired | OAuth token has expired | Reconnect the platform on the Ad Platforms page |
+| Authorization expired | OAuth token has expired | Reconnect the platform on the [Connections](integrations.md) page |
 | Rate limit exceeded | Too many API requests in a short period | Wait a few minutes and try again |
 | Network timeout | Connectivity issue | Check your internet connection and retry |
 | Validation error | A campaign has data incompatible with the target platform | Review the error details and fix the flagged entities |
@@ -85,6 +85,6 @@ If a Quick Sync encounters errors:
 
 - [Sync](sync.md) — Full sync documentation including per-platform sync and conflict resolution
 - [Scheduled Sync](scheduled-sync.md) — Automatic background synchronization
-- [Ad Platforms](integrations.md) — Connect and manage your platforms
+- [Connections](integrations.md) — Connect and manage your platforms
 
 ![Quick Sync History](../images/quick-sync-history.png)

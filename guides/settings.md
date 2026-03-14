@@ -2,7 +2,7 @@
 
 # Settings
 
-Configure your AI setup, customize prompts, manage your Knowledge Base, and control your data. The Settings page also includes theme and language options accessible from the top navigation bar.
+Configure your AI setup, manage your Knowledge Base, and control your data. The Settings page also includes theme and language options accessible from the top navigation bar.
 
 ---
 
@@ -10,14 +10,13 @@ Configure your AI setup, customize prompts, manage your Knowledge Base, and cont
 
 Click **Settings** in the sidebar to open the Settings page. The page is organized into tabs:
 
-- **General** — API key and AI behavior preferences
-- **Prompt Config** — Customize AI prompt templates
+- **General** — AI provider selection, API key management, and behavior preferences
 - **Knowledge Base** — Knowledge Base documents
 - **Team** — Team member management (Premium)
 - **Account** — Subscription, notifications, and account management (Premium)
 - **Imprint** — Legal and contact information
 
-> **Note:** Platform integrations and conversion tracking are no longer part of Settings. They have their own dedicated pages accessible from the sidebar under the **Platforms** section. See [Ad Platforms](../premium/integrations.md) and [Conversions](../premium/conversions.md).
+> **Note:** Platform connections and conversion tracking have their own dedicated pages accessible from the sidebar. See [Connections](../premium/integrations.md) and [Conversions](../premium/conversions.md).
 
 ![Settings page](../images/settings-page.png)
 
@@ -27,9 +26,18 @@ Click **Settings** in the sidebar to open the Settings page. The page is organiz
 
 The General tab contains your core AI and app preferences.
 
+### AI Provider (Premium)
+
+Premium users can choose between two AI providers:
+
+- **Premium AI** (default for Pro users) — Uses your plan's AI allowance. No setup required. AI translations, generation, and image creation are handled automatically.
+- **Your Own API Key** — Use your personal OpenAI key. You control costs directly.
+
+Toggle between the two options using the provider cards in the General tab. When "Your Own API Key" is selected, the API Key input field becomes visible.
+
 ### OpenAI API Key
 
-Your API key connects Defo Ads to OpenAI for AI-powered features.
+Your API key connects Defo Ads to OpenAI for AI-powered features. This field is only shown when using your own API key (always visible for free users, shown by toggling the provider for Premium users).
 
 1. Get an API key from [platform.openai.com](https://platform.openai.com)
 2. Paste it into the **OpenAI API Key** field
@@ -43,7 +51,7 @@ Your API key connects Defo Ads to OpenAI for AI-powered features.
 - If you clear your browser data, you'll need to re-enter the key
 - You can remove the key at any time by clearing the field
 
-> **Tip:** You can use Defo Ads without an API key. All features work except AI generation. You can always add a key later.
+> **Tip:** You can use Defo Ads without an API key. All features work except AI generation. You can always add a key later, or upgrade to Premium for managed AI.
 
 ### AI Behavior: Custom Instructions
 
@@ -52,7 +60,7 @@ Toggle: **"Ask for custom instructions before AI generation"**
 - **On** (default) — Before each AI generation, a dialog appears where you can provide specific instructions (e.g., "Use formal tone" or "Focus on price savings")
 - **Off** — AI generates content immediately without prompting for additional instructions
 
-This is a convenience setting. When off, you can still influence AI output through your Knowledge Base documents and prompt templates.
+This is a convenience setting. When off, you can still influence AI output through your Knowledge Base documents.
 
 ### User Proficiency Level
 
@@ -62,7 +70,7 @@ Defo Ads adapts its AI explanations based on your experience level:
 |-------|-------------|
 | **Beginner** | AI provides detailed explanations and simpler suggestions |
 | **Intermediate** | Balanced detail with some technical terminology |
-| **Advanced** | Concise output, assumes knowledge of Google Ads concepts |
+| **Advanced** | Concise output, assumes knowledge of ads platform concepts |
 
 Your proficiency level is initially determined through an assessment when you first use the app. You can:
 
@@ -73,63 +81,9 @@ Your proficiency level is initially determined through an assessment when you fi
 
 ---
 
-## Prompt Config Tab
+## Knowledge Base Tab
 
-The Prompt Config tab lets you view and customize the AI prompt templates used throughout Defo Ads.
-
-### Viewing Prompts
-
-The tab displays a list of all prompt templates, organized by feature area:
-
-- Campaign generation prompts
-- Ad generation and review prompts
-- Keyword generation prompts
-- Site analysis prompts
-- Translation prompts
-- And more
-
-Each prompt shows its name and a **"Customized"** badge if you've modified it from the default.
-
-![Prompt config list](../images/settings-prompt-config.png)
-
-### Editing a Prompt
-
-1. Click on any prompt to open it in the editor
-2. Modify the prompt text
-3. Use **placeholders** to insert dynamic data — available placeholders are listed below the editor for each prompt
-
-Common placeholders include:
-
-| Placeholder | Description |
-|-------------|-------------|
-| `{campaignGoals}` | The campaign's goals text |
-| `{siteDescription}` | The linked site's business description |
-| `{siteKeywords}` | Keywords extracted from the site |
-| `{adGroupName}` | The current ad group's name |
-| `{keywords}` | Keywords in the current ad group |
-| `{language}` | The target language for generation |
-| `{customInstructions}` | Custom instructions provided by the user |
-
-4. Click **"Save"** to apply your changes
-
-![Prompt editor](../images/settings-prompt-editor.png)
-
-### Resetting Prompts
-
-If a customized prompt isn't producing good results, you can restore the default:
-
-- **Reset one prompt** — Click the **reset icon** next to any customized prompt
-- **Reset all prompts** — Click **"Reset All"** to restore every prompt to its factory default
-
-Resetting is non-destructive to your other settings and data.
-
-> **Tip:** Before customizing prompts, try using **custom instructions** and **Knowledge Base documents** first. These are easier to manage and don't require understanding prompt engineering.
-
----
-
-## Documentation Tab
-
-The Documentation tab is where you manage your **Knowledge Base** — custom documents that provide AI with additional context about your business.
+The Knowledge Base tab is where you manage your **Knowledge Base** — custom documents that provide AI with additional context about your business.
 
 This is covered in detail in the [Knowledge Base](knowledge-base.md) guide. In summary:
 
@@ -226,9 +180,9 @@ Premium adds these tabs to the Settings page:
 - **Team** — Manage team members, invite collaborators, set permissions. See [Team Collaboration](../premium/team-collaboration.md).
 - **Account** — View subscription status, manage billing, configure notification preferences, and delete your account. See [User Profile](../premium/user-profile.md).
 
-Premium users also do not need to configure an OpenAI API key, as AI is fully managed through the Premium service.
+Premium users can choose to use the managed Premium AI provider (no API key needed) or their own OpenAI key. See the [AI Provider](#ai-provider-premium) section above.
 
-> **Note:** Platform integrations (Google Ads, Microsoft Advertising) are now managed from the dedicated **Ad Platforms** page in the sidebar, not from Settings. See [Ad Platforms](../premium/integrations.md).
+> **Note:** Platform connections (Google Ads, Microsoft Advertising) are managed from the dedicated **Connections** page in the sidebar, not from Settings. See [Connections](../premium/integrations.md).
 
 ---
 
@@ -244,20 +198,19 @@ In the **premium version**, data is stored securely in the cloud and synced acro
 
 Yes. All campaign management features work without an API key. Only AI-powered features (generation, review, translation) require either an API key (free) or a Premium subscription.
 
-### Will changing prompts affect existing campaigns?
-
-No. Prompt changes only affect **future** AI generations. Existing ads, keywords, and other content remain unchanged.
-
 ### How do I transfer my data to a new browser?
 
-1. In your current browser: **Import / Export > Export > JSON** (all campaigns)
+1. In your current browser: go to the **Import / Export** page, select **Export > JSON** (all campaigns)
 2. In your new browser: Open Defo Ads, complete the welcome wizard
-3. Go to **Import / Export > Import > JSON** and upload your backup file
+3. Go to the **Import / Export** page, select **Import > JSON** and upload your backup file
+
+> **Note:** In the free version, Import / Export is in the sidebar. In Premium, access it via **Sync > Open Import / Export** at the bottom of the Sync page.
 
 ---
 
 **Related:**
 - [AI Features](ai-features.md) — Overview of all AI-powered features
 - [Knowledge Base](knowledge-base.md) — Custom documents for AI context
+- [Connections](../premium/integrations.md) — Connect and manage ad platforms (Premium)
 - [Team Collaboration](../premium/team-collaboration.md) — Manage team members (Premium)
 - [User Profile](../premium/user-profile.md) — Account and subscription management (Premium)
