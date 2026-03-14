@@ -100,7 +100,6 @@ Push, pull, and remove campaigns across platforms with a clear section-based lay
 | [Sites](guides/sites.md) | Add websites for AI context, with auto-analysis and target groups |
 | [AI Features](guides/ai-features.md) | Overview of every AI-powered feature |
 | [AI Assistant](guides/ai-assistant.md) | Chat-based campaign management with suggestion chips |
-| [Knowledge Base](guides/knowledge-base.md) | Custom documents to guide AI generation |
 | [Import & Export](guides/import-export.md) | CSV and JSON import/export |
 | [Settings](guides/settings.md) | AI provider, language, theme, and preferences |
 | [Validation](guides/validation.md) | Check campaigns for errors before going live |

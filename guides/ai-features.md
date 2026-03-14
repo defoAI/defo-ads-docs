@@ -180,14 +180,6 @@ You can re-enable it anytime.
 
 ---
 
-## Knowledge Base
-
-The Knowledge Base lets you add custom documents that give AI additional context about your business. When AI generates content, it references these documents to produce more relevant, on-brand results.
-
-This is covered in detail in the [Knowledge Base](knowledge-base.md) guide.
-
----
-
 ## AI Usage Tips
 
 ### Getting Better Results
@@ -195,8 +187,7 @@ This is covered in detail in the [Knowledge Base](knowledge-base.md) guide.
 1. **Fill in your site data** — AI uses your site description and keywords as context. The more complete your site data, the better the output.
 2. **Write specific goals** — Vague goals produce generic content. Be specific about your audience, value proposition, and desired tone.
 3. **Use custom instructions** — When you need something specific for a particular generation, custom instructions are the most direct way to guide AI.
-4. **Add Knowledge Base documents** — For consistent brand voice across all generations, add guidelines to the Knowledge Base.
-5. **Iterate** — Generate, review, regenerate with adjusted instructions. AI gets better when you provide feedback through custom instructions.
+4. **Iterate** — Generate, review, regenerate with adjusted instructions. AI gets better when you provide feedback through custom instructions.
 
 ### Understanding AI Limitations
 
@@ -212,7 +203,6 @@ This is covered in detail in the [Knowledge Base](knowledge-base.md) guide.
 ---
 
 **Related:**
-- [Knowledge Base](knowledge-base.md) — Add custom documents for AI context
 - [Settings](settings.md) — Configure AI provider and preferences
 - [Ads](ads.md) — Create and edit responsive search ads
 - [Campaigns](campaigns.md) — Create and manage advertising campaigns

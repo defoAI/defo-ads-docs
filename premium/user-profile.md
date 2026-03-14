@@ -177,6 +177,39 @@ For detailed billing management, the Stripe Customer Portal provides full contro
 
 ---
 
+## Delete Account
+
+> **Warning:** This action is permanent and cannot be undone.
+
+The **Danger Zone** section at the bottom of the User Profile page allows you to permanently delete your account and all associated data.
+
+![Danger Zone section](../images/user-profile-danger-zone.png)
+
+### How to Delete Your Account
+
+1. Scroll to the **Danger Zone** section at the bottom of the User Profile page
+2. Click **Delete Account**
+3. A confirmation dialog appears
+4. Type `DELETE` in the confirmation field
+5. Complete the security verification (CAPTCHA)
+6. Click **Delete Account** to confirm
+
+### What Gets Deleted
+
+- Your user account and authentication credentials
+- All campaign data stored in the cloud
+- All subscription records
+
+### What Happens After Deletion
+
+- You are signed out immediately
+- You are redirected to the home page
+- Your data cannot be recovered
+
+> **Tip:** If you simply want to cancel your subscription while keeping your data, use the **Manage Subscription** button instead to cancel through the billing portal.
+
+---
+
 ## Logout
 
 The **Logout** button is located at the bottom of the User Profile page.
@@ -222,6 +255,10 @@ The User Profile page is organized into clear sections from top to bottom:
 |                                                    |
 |  [Logout]                                          |
 |                                                    |
++---------------------------------------------------+
+|  ⚠ Danger Zone                                    |
+|  Permanently delete your account and all data.    |
+|  [Delete Account]                                  |
 +---------------------------------------------------+
 ```
 

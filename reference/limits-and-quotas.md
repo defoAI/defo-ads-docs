@@ -71,7 +71,6 @@ AI tokens are the unit of measurement for AI usage. Different actions consume di
 | Generate a full ad (headlines + descriptions) | 200-500 |
 | Generate a full campaign (ad groups + keywords + ads) | 2,000-10,000 |
 | AI chat message | 100-500 |
-| Knowledge Base analysis | 500-2,000 |
 
 These are estimates -- actual usage depends on the complexity of your request and the length of the AI response.
 
@@ -177,8 +176,7 @@ For a full comparison of features, see [Free vs. Premium](../getting-started/fre
 ## Tips for Managing Quotas
 
 1. **Plan your AI usage.** Generating a full campaign at once is more token-efficient than generating components one by one.
-2. **Use Knowledge Base documents.** Providing good context upfront leads to better AI output on the first try, reducing the need for regeneration.
-3. **Edit manually when possible.** Small tweaks to headlines or descriptions do not require AI -- save your tokens for larger generation tasks.
+2. **Edit manually when possible.** Small tweaks to headlines or descriptions do not require AI -- save your tokens for larger generation tasks.
 4. **Export regularly (free version).** Browser storage is volatile. A JSON export protects your work.
 5. **Monitor your usage.** Check the User Profile page to see how much of your daily quota remains before starting a large generation task.
 

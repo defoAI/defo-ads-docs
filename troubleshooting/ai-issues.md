@@ -132,11 +132,9 @@ This is a server-side issue and does not require any action on your part beyond 
 | Single headline or description | 5-10 seconds |
 | Full ad (all headlines + descriptions) | 10-20 seconds |
 | Full campaign (ad groups + keywords + ads) | 30-60 seconds |
-| Campaign with Knowledge Base context | 30-90 seconds |
-
 **If generation exceeds these times:**
 
-1. **Be patient.** Large requests with detailed context take longer. The AI is processing your site data, knowledge base documents, and campaign goals.
+1. **Be patient.** Large requests with detailed context take longer. The AI is processing your site data and campaign goals.
 2. **Do not close the page.** Closing the page will cancel the request and you will lose the progress.
 3. **Check your internet connection.** Slow connections can delay responses.
 4. **Simplify your request.** Generate fewer components at once (e.g., just ad groups first, then keywords separately).
@@ -157,7 +155,6 @@ The quality of AI output directly depends on the context you provide. More detai
 
 - **Site descriptions:** Add detailed descriptions of your business, products, and services when creating a site. Include unique selling points, target audience, and key benefits.
 - **Campaign goals:** Write specific, detailed goals. "Drive sign-ups for our free trial of the project management tool, targeting small business owners who manage remote teams" produces far better output than "get more sign-ups."
-- **Knowledge Base documents:** Upload or paste documents about your business, products, case studies, or brand guidelines. The AI uses these to generate more relevant content. See [Knowledge Base](../guides/knowledge-base.md).
 
 ![Site description for AI context](../images/ts-ai-site-context.png)
 
@@ -193,7 +190,7 @@ If the AI output is not meeting your expectations:
 | Wrong tone or style | Use custom instructions to specify your preferred tone |
 | Irrelevant keywords | Add negative keywords after generation; refine your goals text |
 | Content in wrong language | Set the campaign target language and add a language instruction |
-| Too similar to competitors | Add unique selling points to your site description and Knowledge Base |
+| Too similar to competitors | Add unique selling points to your site description and campaign goals |
 | Descriptions are too vague | Provide specific product details, pricing, and offers in your context |
 
 ### When to Edit Manually
@@ -237,7 +234,6 @@ If AI problems persist:
 
 **Related:**
 - [AI Features](../guides/ai-features.md) -- How AI generation works in Defo Ads
-- [Knowledge Base](../guides/knowledge-base.md) -- Add documents for better AI context
 - [Settings](../guides/settings.md) -- Configure API keys and prompt editor
 - [Limits & Quotas](../reference/limits-and-quotas.md) -- Token limits and daily resets
 - [Common Issues](common-issues.md) -- General troubleshooting

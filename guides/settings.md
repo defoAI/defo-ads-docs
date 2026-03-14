@@ -2,7 +2,7 @@
 
 # Settings
 
-Configure your AI setup, manage your Knowledge Base, and control your data. The Settings page also includes theme and language options accessible from the top navigation bar.
+Configure your AI setup and control your data. The Settings page also includes theme and language options accessible from the top navigation bar.
 
 ---
 
@@ -11,9 +11,8 @@ Configure your AI setup, manage your Knowledge Base, and control your data. The 
 Click **Settings** in the sidebar to open the Settings page. The page is organized into tabs:
 
 - **General** — AI provider selection, API key management, and behavior preferences
-- **Knowledge Base** — Knowledge Base documents
 - **Team** — Team member management (Premium)
-- **Account** — Subscription, notifications, and account management (Premium)
+- **Notifications** — Email and notification preferences (Premium)
 - **Imprint** — Legal and contact information
 
 > **Note:** Platform connections and conversion tracking have their own dedicated pages accessible from the sidebar. See [Connections](../premium/integrations.md) and [Conversions](../premium/conversions.md).
@@ -60,8 +59,6 @@ Toggle: **"Ask for custom instructions before AI generation"**
 - **On** (default) — Before each AI generation, a dialog appears where you can provide specific instructions (e.g., "Use formal tone" or "Focus on price savings")
 - **Off** — AI generates content immediately without prompting for additional instructions
 
-This is a convenience setting. When off, you can still influence AI output through your Knowledge Base documents.
-
 ### User Proficiency Level
 
 Defo Ads adapts its AI explanations based on your experience level:
@@ -78,21 +75,6 @@ Your proficiency level is initially determined through an assessment when you fi
 - **Reset assessment** — Click the reset button to retake the proficiency assessment
 
 ![User proficiency](../images/settings-proficiency.png)
-
----
-
-## Knowledge Base Tab
-
-The Knowledge Base tab is where you manage your **Knowledge Base** — custom documents that provide AI with additional context about your business.
-
-This is covered in detail in the [Knowledge Base](knowledge-base.md) guide. In summary:
-
-- **Add documents** with markdown content
-- **Enable/disable** documents without deleting them
-- **Edit** existing documents
-- **Delete** documents you no longer need
-
-![Documentation tab](../images/settings-documentation-tab.png)
 
 ---
 
@@ -164,7 +146,6 @@ If you need to start fresh or want to remove all your data:
 **What is preserved:**
 - Your OpenAI API key
 - Your customized prompt templates
-- Your Knowledge Base documents
 - Your theme and language preferences
 
 > **Warning:** This action cannot be undone. If you want to keep your data, **export a JSON backup** first. See [Import & Export](import-export.md).
@@ -178,7 +159,11 @@ If you need to start fresh or want to remove all your data:
 Premium adds these tabs to the Settings page:
 
 - **Team** — Manage team members, invite collaborators, set permissions. See [Team Collaboration](../premium/team-collaboration.md).
-- **Account** — View subscription status, manage billing, configure notification preferences, and delete your account. See [User Profile](../premium/user-profile.md).
+- **Notifications** — Configure email and notification preferences.
+
+![Settings Notifications tab](../images/settings-notifications-tab.png)
+
+> **Note:** Account management including deleting your account is available from the [User Profile](../premium/user-profile.md) page.
 
 Premium users can choose to use the managed Premium AI provider (no API key needed) or their own OpenAI key. See the [AI Provider](#ai-provider-premium) section above.
 
@@ -210,7 +195,6 @@ Yes. All campaign management features work without an API key. Only AI-powered f
 
 **Related:**
 - [AI Features](ai-features.md) — Overview of all AI-powered features
-- [Knowledge Base](knowledge-base.md) — Custom documents for AI context
 - [Connections](../premium/integrations.md) — Connect and manage ad platforms (Premium)
 - [Team Collaboration](../premium/team-collaboration.md) — Manage team members (Premium)
 - [User Profile](../premium/user-profile.md) — Account and subscription management (Premium)
