@@ -8,7 +8,6 @@ Defo Ads Premium gives you cloud sync, managed AI, multi-platform integration, a
 
 ## What You Get
 
-- Everything in the free version, plus:
 - **Cloud sync** — Access your campaigns from any device
 - **Managed AI** — No API key needed, we handle the AI infrastructure
 - **Multi-platform integration** — Connect Google Ads and Microsoft Advertising
@@ -121,7 +120,7 @@ See [Performance Dashboard](../premium/performance-dashboard.md) for details.
 - [Quick Sync](../premium/quick-sync.md) — Set up one-click sync for daily use
 - [Scheduled Sync](../premium/scheduled-sync.md) — Automate sync on a schedule
 - [Team Collaboration](../premium/team-collaboration.md) — Invite your team
-- [Free vs Premium](free-vs-premium.md) — Full feature comparison
+- [Plans](plans.md) — Plan details and features
 
 ---
 

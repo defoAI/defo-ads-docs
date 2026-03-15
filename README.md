@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="getting-started/quick-start-free.md">Quick Start (Free)</a> &bull;
-  <a href="getting-started/quick-start-premium.md">Quick Start (Premium)</a> &bull;
-  <a href="getting-started/free-vs-premium.md">Compare Plans</a>
+  <a href="getting-started/quick-start-premium.md">Quick Start</a> &bull;
+  <a href="getting-started/plans.md">Plans</a> &bull;
+  <a href="getting-started/onboarding-wizard.md">Onboarding</a>
 </p>
 
 ---
@@ -23,7 +23,7 @@
 
 - **AI writes your ads** — Headlines, descriptions, and keywords generated from your website content
 - **Multi-platform sync** — Push campaigns to Google Ads and Microsoft Advertising in one click
-- **Works offline** — Free version runs entirely in your browser, no account needed
+- **Cloud-powered** — Access your campaigns from any device with automatic sync
 - **Budget intelligence** — AI-powered budget advisor with cap controls and allocation strategies
 
 ---
@@ -62,26 +62,11 @@ Push, pull, and remove campaigns across platforms with a clear section-based lay
 
 ---
 
-## Two Ways to Use Defo Ads
-
-| | **Free (Open Source)** | **Premium** |
-|---|---|---|
-| **AI** | Bring your own OpenAI key | Managed AI — no key needed |
-| **Storage** | Browser localStorage | Cloud sync across devices |
-| **Platforms** | Export to CSV/JSON | Direct Google Ads & Microsoft Ads sync |
-| **Collaboration** | Single user | Teams with shared campaigns |
-| **Analytics** | Manual tracking | Real-time performance dashboard |
-| **Price** | Free forever | Free trial, then paid plans |
-
-[Full comparison](getting-started/free-vs-premium.md)
-
----
-
 ## Getting Started
 
-1. **[Quick Start — Free](getting-started/quick-start-free.md)** — Up and running in 2 minutes, no account needed
-2. **[Quick Start — Premium](getting-started/quick-start-premium.md)** — Connect your ad platforms and start syncing
-3. **[Onboarding Wizard](getting-started/onboarding-wizard.md)** — Step-by-step walkthrough of the 6-step setup
+1. **[Quick Start](getting-started/quick-start-premium.md)** — Create your account and start managing campaigns
+2. **[Onboarding Wizard](getting-started/onboarding-wizard.md)** — Step-by-step walkthrough of the 6-step setup
+3. **[Plans](getting-started/plans.md)** — Free trial and paid plan details
 
 ---
 
@@ -125,7 +110,7 @@ Push, pull, and remove campaigns across platforms with a clear section-based lay
 - [Ad Specifications](reference/ad-specifications.md) — Character limits and format requirements
 - [Campaign Types](reference/campaign-types.md) — Search, Display, Video, Shopping, Performance Max
 - [Keyword Match Types](reference/keyword-match-types.md) — Broad, Phrase, and Exact match explained
-- [Limits & Quotas](reference/limits-and-quotas.md) — Free vs Premium limits
+- [Limits & Quotas](reference/limits-and-quotas.md) — Plan limits and quotas
 - [Supported Languages](reference/supported-languages.md) — English, Deutsch, Francais
 
 ### Troubleshooting

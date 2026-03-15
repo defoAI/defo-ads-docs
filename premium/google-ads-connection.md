@@ -1,6 +1,6 @@
 [Home](../README.md) > [Premium](README.md) > Google Ads Connection
 
-> **Premium Feature** — This feature requires a Defo Ads Premium subscription. [Compare plans](../getting-started/free-vs-premium.md)
+> See [Plans](../getting-started/plans.md) for feature details.
 
 # Google Ads Connection
 

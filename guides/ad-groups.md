@@ -268,7 +268,7 @@ Deleting an ad group also deletes all its keywords and ads. This action cannot b
 2. Click **Delete**
 3. Confirm the deletion
 
-> **Note:** If you are using the free version, consider exporting a backup before deleting ad groups.
+> **Note:** Deletion cannot be undone. Your data is stored in the cloud, but there is no undo for deletions.
 
 ---
 

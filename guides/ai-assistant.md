@@ -1,7 +1,5 @@
 [Home](../README.md) > [Guides](../README.md) > AI Assistant
 
-> **Free + Premium Feature** — The AI Assistant is available in both the free and premium tiers. Free users provide their own OpenAI API key; premium users get managed AI with higher quotas. [Compare plans](../getting-started/free-vs-premium.md)
-
 # AI Assistant
 
 The AI Assistant is a chat-based interface that lets you manage your campaigns using natural language. Create campaigns, edit settings, get information, and ask questions — all through a conversational experience. The assistant understands your context and ensures safety through a draft-and-approve model.

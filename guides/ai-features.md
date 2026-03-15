@@ -8,29 +8,13 @@ Defo Ads uses AI to help you generate headlines, descriptions, keywords, and com
 
 ## How AI Works
 
-Defo Ads offers two AI modes depending on your version:
+Defo Ads includes **managed AI** with all plans — no API key needed. AI works out of the box.
 
-### Free Version: Bring Your Own Key
-
-In the free version, you provide your own **OpenAI API key**:
-
-- Your key is stored **locally in your browser** and is never sent to Defo Ads servers
-- AI requests go **directly from your browser to OpenAI** (no middleman)
-- You pay OpenAI directly for usage based on their pricing
-- You can add or change your key anytime in **Settings > General**
-
-To get an API key, visit [platform.openai.com](https://platform.openai.com) and create one. See [Settings](settings.md) for setup instructions.
-
-### Premium Version: Managed AI
-
-> **Premium Feature** -- This requires a Defo Ads Premium subscription.
-
-With Premium, AI is fully managed:
-
-- **No API key needed** — AI works out of the box
 - **Multi-provider support** — Requests are routed through EdenAI to the best available provider (OpenAI, Anthropic, Google, and more)
-- **Usage quotas** — Each plan includes a monthly AI usage allowance
+- **Usage quotas** — Each plan includes a daily AI usage allowance
 - **Better reliability** — If one provider is down, requests are automatically routed to another
+
+> **Optional:** If you prefer, you can use your own OpenAI API key instead. Configure this in **Settings > General**. Your key is stored locally in your browser and requests go directly to OpenAI. See [Settings](settings.md) for details.
 
 ---
 
@@ -198,7 +182,7 @@ You can re-enable it anytime.
 
 ---
 
-> The [AI Assistant](ai-assistant.md) provides a chat interface where you can manage your campaigns with natural language commands. Ask it to create campaigns, edit ads, generate keywords, and more — all through conversation. Available in both free and premium tiers.
+> The [AI Assistant](ai-assistant.md) provides a chat interface where you can manage your campaigns with natural language commands. Ask it to create campaigns, edit ads, generate keywords, and more — all through conversation.
 
 ---
 

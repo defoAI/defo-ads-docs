@@ -8,15 +8,15 @@ Your home screen in Defo Ads — a quick overview of your campaigns, recent acti
 
 ## Overview
 
-The dashboard is the first thing you see after the initial setup wizard. It gives you a snapshot of your advertising workspace and quick access to the most common actions. What you see depends on whether you are using the free or premium version.
+The dashboard is the first thing you see after the initial setup wizard. It gives you a snapshot of your advertising workspace and quick access to the most common actions.
 
 ![Dashboard overview](../images/dashboard-overview.png)
 
 ---
 
-## Free Dashboard
+## Campaigns Home
 
-The free dashboard provides a clean summary of everything in your workspace.
+The Campaigns Home tab provides a clean summary of everything in your workspace.
 
 ### Campaign Stats
 
@@ -67,29 +67,15 @@ The dashboard includes shortcut buttons for the most common tasks:
 - **Add Site** — Opens the site creation page
 - **Import Data** — Opens the import dialog
 
-### Upgrade to Premium Card
-
-At the bottom of the free dashboard, a subtle card highlights what Premium offers — cloud sync, Google Ads integration, performance analytics, and managed AI. Click it to learn more or start a free trial.
-
-![Upgrade card](../images/dashboard-upgrade-card.png)
-
-> **Tip:** The upgrade card is informational only. It never blocks your workflow or interrupts what you are doing.
-
 ---
 
-## Premium Dashboard
+## Analytics Tab
 
-> **Premium Feature** — This requires a Defo Ads Premium subscription.
+The dashboard includes a tab switcher at the top, letting you toggle between **Campaigns Home** and **Analytics**.
 
-The premium dashboard adds a tab switcher at the top of the page, letting you toggle between two views: **Campaigns Home** and **Analytics**.
+![Dashboard tabs](../images/dashboard-premium-tabs.png)
 
-![Premium dashboard tabs](../images/dashboard-premium-tabs.png)
-
-### Campaigns Home Tab
-
-This view is similar to the free dashboard with the same stats cards, recent activity, and quick actions. Premium adds the following:
-
-#### Platform Connection Banner
+### Platform Connection Banner
 
 At the top of the Campaigns Home tab, a banner shows the status of your Google Ads connection:
 
@@ -102,15 +88,13 @@ At the top of the Campaigns Home tab, a banner shows the status of your Google A
 
 ![Platform connection banner](../images/dashboard-connection-banner.png)
 
-#### Cloud Sync Status
+### Cloud Sync Status
 
-Premium users see a cloud sync indicator showing when data was last synced to the server. This replaces the backup reminders shown in the free version, since your data is automatically saved to the cloud.
-
-### Analytics Tab
+A cloud sync indicator shows when data was last synced to the server. Your data is automatically saved to the cloud.
 
 The Analytics tab provides a performance overview of your connected Google Ads campaigns. This is a summary view — for the full analytics experience, see the [Performance Dashboard](../premium/performance-dashboard.md).
 
-#### Key Performance Indicators
+### Key Performance Indicators
 
 A row of KPI cards shows high-level metrics for a selected date range:
 
@@ -123,7 +107,7 @@ A row of KPI cards shows high-level metrics for a selected date range:
 
 ![Analytics KPIs](../images/dashboard-analytics-kpis.png)
 
-#### Performance Charts
+### Performance Charts
 
 Below the KPIs, interactive charts show trends over time:
 
@@ -135,7 +119,7 @@ You can adjust the date range using the date picker in the top-right corner of t
 
 ![Analytics charts](../images/dashboard-analytics-charts.png)
 
-#### Campaign Performance Table
+### Campaign Performance Table
 
 A summary table lists each campaign with its key metrics. Click any row to jump to that campaign's detail view.
 
@@ -169,8 +153,7 @@ The dashboard is designed as a launching pad. Here are the most common paths:
 
 ## Refreshing Data
 
-- **Free:** The dashboard loads data from your browser's local storage. It updates instantly as you make changes.
-- **Premium:** Click the refresh icon in the header to pull the latest data from the cloud. The Analytics tab may take a moment to load if you have many campaigns.
+Click the refresh icon in the header to pull the latest data from the cloud. The Analytics tab may take a moment to load if you have many campaigns.
 
 ---
 
@@ -188,4 +171,4 @@ You can control the app's appearance (dark mode, language, etc.) from the [Setti
 - [Campaigns](campaigns.md) — Create and manage campaigns
 - [Sites](sites.md) — Add websites for better AI context
 - [Performance Dashboard](../premium/performance-dashboard.md) — Full analytics and reporting (Premium)
-- [Free vs Premium](../getting-started/free-vs-premium.md) — Compare what each tier offers
+- [Plans](../getting-started/plans.md) — Plan details and features

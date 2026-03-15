@@ -2,32 +2,28 @@
 
 # AI Issues
 
-Defo Ads uses AI to generate ad content, keywords, and campaign structures. This page covers common AI-related problems and how to resolve them for both the free and premium versions.
+Defo Ads uses AI to generate ad content, keywords, and campaign structures. This page covers common AI-related problems and how to resolve them.
 
 ---
 
-## Free Version Issues
+## Own API Key Issues
 
-The free version uses your own OpenAI API key to make AI requests directly from your browser. Issues are typically related to your API key or OpenAI account.
+If you are using your own OpenAI API key (configured in **Settings > General**), these issues may occur:
 
 ### API Key Required
 
 **Error message:** "API Key Required" or "No API key configured"
 
-**Cause:** You have not entered your OpenAI API key in the app settings.
+**Cause:** You have selected "Your Own API Key" as the AI provider but have not entered a key.
 
 **Solution:**
 
-1. Go to **Settings** in the sidebar
-2. Navigate to the **General** section
-3. Enter your OpenAI API key in the API key field
-4. Click **Save**
+1. Go to **Settings > General**
+2. Either enter your OpenAI API key, or switch to the **Premium AI** provider (no key needed)
 
 **Where to get an API key:** Go to [platform.openai.com](https://platform.openai.com), sign in, navigate to **API Keys**, click **"Create new secret key"**, and copy the key (starts with `sk-`).
 
 ![API key settings](../images/ts-ai-api-key-settings.png)
-
-> **Important:** Your API key is stored in your browser's localStorage and is never sent to Defo Ads servers.
 
 ---
 
@@ -46,26 +42,6 @@ The free version uses your own OpenAI API key to make AI requests directly from 
 
 ---
 
-### AI Generation Failed
-
-**Error message:** "AI generation failed" or "Error generating content"
-
-**Cause:** The request to OpenAI failed. This can have several causes.
-
-**Solutions (check in order):**
-
-1. **Check your API key balance.** Log in to [platform.openai.com/usage](https://platform.openai.com/usage) and verify you have available credits. If your balance is zero, add funds.
-
-2. **Check OpenAI service status.** Visit [status.openai.com](https://status.openai.com) to see if OpenAI is experiencing an outage or degraded performance.
-
-3. **Try again.** Transient errors happen occasionally. Wait a moment and retry the generation.
-
-4. **Simplify your request.** Very large generation requests (e.g., generating 10+ ad groups with full ads and keywords) may time out. Try generating fewer items at once.
-
-5. **Check your browser's network.** Open your browser's developer console (F12 > Network tab) to see if the request is being blocked by an extension, firewall, or corporate proxy.
-
----
-
 ### Rate Limit from OpenAI
 
 **Error message:** "Rate limit exceeded" or "Too many requests (429)"
@@ -76,15 +52,13 @@ The free version uses your own OpenAI API key to make AI requests directly from 
 
 1. **Wait and retry.** Rate limits typically reset within 60 seconds.
 2. **Reduce request frequency.** If you are generating content for multiple campaigns in a row, add a short pause between requests.
-3. **Check your OpenAI tier.** Free OpenAI accounts have stricter rate limits. Consider upgrading your OpenAI account for higher limits.
-
-> **Note:** This is an OpenAI rate limit, not a Defo Ads limit. The free version of Defo Ads does not impose any rate limiting.
+3. **Switch to Premium AI.** The managed AI provider handles rate limiting automatically.
 
 ---
 
-## Premium Version Issues
+## Managed AI Issues
 
-The premium version uses managed AI provided by the Defo Ads backend. You do not need your own API key, but usage is subject to your plan's daily limits.
+The managed AI provider handles AI generation on the server side. You do not need your own API key, but usage is subject to your plan's daily limits.
 
 ### AI Quota Exceeded
 
@@ -145,7 +119,7 @@ If a request takes more than 2 minutes without completing, it has likely timed o
 
 ## General AI Tips
 
-These tips apply to both the free and premium versions and help you get better results from AI generation.
+These tips help you get better results from AI generation.
 
 ### Provide Better Context
 
@@ -208,16 +182,16 @@ AI generation is a starting point, not the final product. You should always revi
 
 Quick lookup for common AI error codes:
 
-| Error Code | Meaning | Version | Solution |
-|------------|---------|---------|----------|
-| `API_KEY_REQUIRED` | No API key configured | Free | Enter key in Settings |
-| `INVALID_API_KEY` | API key is invalid | Free | Check or replace key |
-| `OPENAI_RATE_LIMIT` | Too many requests to OpenAI | Free | Wait 60 seconds, retry |
-| `OPENAI_INSUFFICIENT_QUOTA` | OpenAI account out of credits | Free | Add funds at platform.openai.com |
-| `AI_QUOTA_EXCEEDED` | Daily token limit reached | Premium | Wait for reset or upgrade plan |
-| `AI_SERVICE_UNAVAILABLE` | Backend AI is down | Premium | Wait and retry |
-| `GENERATION_TIMEOUT` | Request took too long | Both | Simplify request, retry |
-| `INVALID_REQUEST` | Malformed generation request | Both | Check inputs, retry |
+| Error Code | Meaning | Solution |
+|------------|---------|----------|
+| `API_KEY_REQUIRED` | No API key configured (own key mode) | Enter key in Settings or switch to managed AI |
+| `INVALID_API_KEY` | API key is invalid | Check or replace key |
+| `OPENAI_RATE_LIMIT` | Too many requests to OpenAI (own key) | Wait 60 seconds, retry |
+| `OPENAI_INSUFFICIENT_QUOTA` | OpenAI account out of credits (own key) | Add funds at platform.openai.com |
+| `AI_QUOTA_EXCEEDED` | Daily token limit reached | Wait for reset or upgrade plan |
+| `AI_SERVICE_UNAVAILABLE` | Backend AI is down | Wait and retry |
+| `GENERATION_TIMEOUT` | Request took too long | Simplify request, retry |
+| `INVALID_REQUEST` | Malformed generation request | Check inputs, retry |
 
 ---
 
@@ -225,9 +199,9 @@ Quick lookup for common AI error codes:
 
 If AI problems persist:
 
-1. **Free version:** Verify your API key works by testing it directly at [platform.openai.com/playground](https://platform.openai.com/playground)
-2. **Premium version:** Check your usage in User Profile and ensure you have quota remaining
-3. **Both versions:** Try a simple generation first (single headline) to isolate the issue
+1. **If using your own API key:** Verify it works by testing at [platform.openai.com/playground](https://platform.openai.com/playground)
+2. **Check your usage** in User Profile and ensure you have quota remaining
+3. **Try a simple generation first** (single headline) to isolate the issue
 4. **Contact support** with the error message and what you were trying to generate
 
 ---

@@ -95,11 +95,6 @@ This information helps personalize your experience and is saved to your profile.
 **What you see:**
 - Up to 4 plan cards in a responsive grid:
 
-**Local Plan (if visible):**
-- Title: "Local" — Price: Free
-- Features: Offline-first storage, no account needed, full campaign builder
-- Button: **"Start Locally"** — closes the wizard immediately (no cloud account)
-
 **Free/Trial Plans:**
 - Title and price (Free)
 - Trial badge (e.g., "14 Day Trial")
@@ -176,27 +171,15 @@ This information helps personalize your experience and is saved to your profile.
 
 ---
 
-## Data Migration
-
-If you have existing campaigns stored locally (from the free version), the wizard includes an additional **Migration** step between Account and About You:
-
-- Shows a summary of your local data (campaigns, sites)
-- Options to **upload** local data to the cloud or **start fresh**
-- This step is only shown if local data is detected
-
----
-
 ## Wizard Behavior
 
 - The wizard appears automatically for new users and users without an active subscription
 - It does **not** appear for users who have already completed it (tracked via browser storage)
-- Selecting the **"Local"** plan closes the wizard immediately without creating a cloud account
 - The wizard is responsive — full-screen on mobile, modal on desktop
 
 ---
 
 **Related:**
 - [Quick Start — Premium](quick-start-premium.md) — Step-by-step premium setup guide
-- [Quick Start — Free](quick-start-free.md) — Getting started with the free version
 - [Subscription & Billing](../premium/subscription.md) — Plan details and billing
 - [Connections](../premium/integrations.md) — Connect ad platforms after setup

@@ -2,51 +2,11 @@
 
 # Limits & Quotas
 
-Defo Ads has different usage limits depending on whether you use the free open-source version or a Premium subscription. This page explains what those limits are and how they work.
+Defo Ads usage limits are determined by your subscription plan. Limits are **dynamic and configured per plan** -- they may vary based on your subscription tier and can change over time. This page explains how quotas work.
 
 ---
 
-## Free (Open Source) Version
-
-The free version runs entirely in your browser with no backend server. Because there is no cloud service involved, most limits are determined by your browser and your own API key.
-
-| Resource | Limit |
-|----------|-------|
-| **Campaigns** | Unlimited |
-| **Ad groups per campaign** | Unlimited |
-| **Ads per ad group** | Unlimited |
-| **Keywords per ad group** | Unlimited |
-| **AI usage** | Unlimited (you pay OpenAI directly) |
-| **Storage** | Browser localStorage (typically 5-10 MB) |
-| **Image uploads** | Not available |
-| **Cloud sync** | Not available |
-| **Google Ads connection** | Not available |
-
-### Storage Considerations
-
-The free version stores all data in your browser's localStorage. Typical limits:
-
-- **Most browsers:** 5-10 MB of localStorage per domain
-- **What fits in 5 MB:** Roughly 50-100 campaigns with full ad groups, ads, and keywords
-- **When you run out:** The app will show an error when saving. Export your data to JSON to free up space or clear old campaigns.
-
-> **Important:** Browser storage can be cleared by clearing your browser cache, using incognito mode, or switching browsers. Always keep a backup by [exporting your data](../guides/import-export.md) regularly.
-
-### AI Usage (Free Version)
-
-In the free version, AI requests go directly from your browser to OpenAI using your own API key. Your usage limits are determined by your OpenAI account:
-
-- **Rate limits:** Set by OpenAI based on your account tier
-- **Costs:** Billed directly to your OpenAI account
-- **No daily cap from Defo Ads:** The app does not impose any additional limits
-
----
-
-## Premium Version
-
-Premium plans include cloud storage, managed AI, and additional features. Limits are **dynamic and configured per plan** -- they may vary based on your subscription tier and can change over time.
-
-### Plan Limits
+## Plan Limits
 
 Limits are configured per plan and can be adjusted at any time by admins. The resources governed by plan limits include:
 
@@ -62,7 +22,9 @@ Limits are configured per plan and can be adjusted at any time by admins. The re
 
 > **Note:** Exact limits vary by plan and can change. Check your [User Profile](../premium/user-profile.md) for your current plan details and usage.
 
-### AI Token Limits
+---
+
+## AI Token Limits
 
 AI tokens are the unit of measurement for AI usage. Different actions consume different amounts of tokens:
 
@@ -77,7 +39,7 @@ These are estimates -- actual usage depends on the complexity of your request an
 
 ### Image Generation Limits
 
-Premium plans include a daily limit on AI-generated images. This applies to image generation features within the app, not to uploading your own images.
+Plans include a daily limit on AI-generated images. This applies to image generation features within the app, not to uploading your own images.
 
 ---
 
@@ -135,20 +97,11 @@ If your plan has a campaign limit:
 
 ### Unlimited Campaigns
 
-Paid Premium plans typically include unlimited campaigns. Check your plan details to confirm.
+Paid plans typically include unlimited campaigns. Check your plan details to confirm.
 
 ---
 
-## Storage Limits
-
-### Free Version
-
-- All data in browser localStorage
-- Typically 5-10 MB depending on browser
-- No cloud backup -- data is only on your device
-- Export to JSON regularly as a backup
-
-### Premium Version
+## Storage
 
 - Data stored in cloud (Redis)
 - Storage quota depends on your plan
@@ -157,35 +110,16 @@ Paid Premium plans typically include unlimited campaigns. Check your plan detail
 
 ---
 
-## Comparing Free vs. Premium Limits
-
-| Feature | Free (Open Source) | Premium |
-|---------|-------------------|---------|
-| **Campaigns** | Unlimited | Per plan (often unlimited on paid plans) |
-| **AI provider** | Your own OpenAI key | Managed (included in subscription) |
-| **AI daily limit** | None from Defo Ads | Per plan |
-| **Image uploads** | Not available | Per plan |
-| **Storage** | Browser only (5-10 MB) | Cloud (per plan) |
-| **Data backup** | Manual JSON export | Automatic cloud storage |
-| **Google Ads sync** | Not available | Included |
-| **Multi-device access** | No (browser-specific) | Yes |
-
-For a full comparison of features, see [Free vs. Premium](../getting-started/free-vs-premium.md).
-
----
-
 ## Tips for Managing Quotas
 
 1. **Plan your AI usage.** Generating a full campaign at once is more token-efficient than generating components one by one.
 2. **Edit manually when possible.** Small tweaks to headlines or descriptions do not require AI -- save your tokens for larger generation tasks.
-4. **Export regularly (free version).** Browser storage is volatile. A JSON export protects your work.
-5. **Monitor your usage.** Check the User Profile page to see how much of your daily quota remains before starting a large generation task.
+3. **Monitor your usage.** Check the User Profile page to see how much of your daily quota remains before starting a large generation task.
 
 ---
 
 **Related:**
-- [Free vs. Premium](../getting-started/free-vs-premium.md) -- Full feature comparison
+- [Plans](../getting-started/plans.md) -- Plan details and features
 - [Subscription & Billing](../premium/subscription.md) -- Plans, pricing, and upgrades
 - [User Profile](../premium/user-profile.md) -- View your usage statistics
 - [AI Features](../guides/ai-features.md) -- Understanding AI token consumption
-- [Import & Export](../guides/import-export.md) -- Backup your data

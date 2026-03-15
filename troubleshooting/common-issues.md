@@ -6,28 +6,18 @@ Solutions to the most frequently encountered problems in Defo Ads. If your issue
 
 ---
 
-## My Data Disappeared
+## My Data Is Not Showing
 
 **Symptom:** You open Defo Ads and your campaigns, sites, or settings are gone.
 
-**Cause:** The free version stores all data in your browser's localStorage. This data is cleared when you:
-
-- Clear your browser cache or browsing data
-- Use a different browser or device
-- Use incognito/private browsing mode
-- Uninstall and reinstall the browser
-- Certain browser extensions or cleanup tools remove localStorage
+**Cause:** You may be signed in to a different account, or there may be a temporary sync issue.
 
 **Solution:**
 
-1. **Check if you are in the right browser.** Data is browser-specific. If you created campaigns in Chrome, they will not appear in Firefox.
-2. **Check incognito mode.** If you are using a private browsing window, localStorage from your normal session is not available.
-3. **Restore from backup.** If you previously exported your data as a JSON file, you can import it:
-   - Go to **Settings** > **Data Management**
-   - Click **Import** and select your JSON backup file
-   - Your campaigns and sites will be restored
-
-**Prevention:** Export your data regularly via [Import & Export](../guides/import-export.md). Premium users have cloud storage, so data survives browser changes.
+1. **Check your account.** Make sure you are signed in with the correct Google account.
+2. **Refresh the page.** Press `Ctrl+R` (Windows/Linux) or `Cmd+R` (Mac) to reload data from the cloud.
+3. **Check your internet connection.** Defo Ads requires an active connection to load your data from the cloud.
+4. **Contact support** if your data is still missing after these steps — your campaigns are stored securely in the cloud and should be recoverable.
 
 ---
 
@@ -79,7 +69,7 @@ If you see "User not found":
 
 3. **Try incognito mode.** Open the app in a private browsing window. If it works there, a browser extension may be causing the issue.
 
-4. **Check your internet connection.** Premium features require an active internet connection. The free version works offline after initial load.
+4. **Check your internet connection.** Defo Ads requires an active internet connection.
 
 5. **Disable browser extensions.** Ad blockers and privacy extensions can sometimes interfere with the app. Try disabling them temporarily.
 
@@ -92,16 +82,6 @@ If you see "User not found":
 ## I Cannot Create More Campaigns
 
 **Symptom:** The "New Campaign" button is disabled or you see an error when trying to create a campaign.
-
-### Free Version
-
-The free version supports unlimited campaigns, but you may run out of **browser storage space**:
-
-- Check if your browser's localStorage is full (typically 5-10 MB)
-- Delete old campaigns you no longer need
-- Export your data as JSON, then delete campaigns to free space
-
-### Premium Version
 
 Your plan may have a campaign limit:
 

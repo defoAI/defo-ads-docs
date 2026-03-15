@@ -3,8 +3,7 @@
 This guide covers how to import campaigns from your connected advertising platforms into Defo Ads, and how to export campaigns from Defo Ads to those platforms. It also covers CSV-based import and export for offline editing.
 
 > **How to access Import / Export:**
-> - **Free version:** Click **Import / Export** in the sidebar.
-> - **Premium:** Go to **Sync** in the sidebar, then click **Open Import / Export** at the bottom of the Sync page. You can also navigate directly to `/import-export`.
+> Go to **Sync** in the sidebar, then click **Open Import / Export** at the bottom of the Sync page. You can also navigate directly to `/import-export`.
 
 ---
 

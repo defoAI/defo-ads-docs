@@ -155,7 +155,7 @@ Each keyword has a status:
 
 To change a keyword's status, click the status indicator in the keywords list or in the keyword detail view.
 
-> **Note:** Like campaign status, keyword status in Defo Ads is a planning tool. Keywords are not live until you export and upload to Google Ads (free) or sync (Premium).
+> **Note:** Like campaign status, keyword status in Defo Ads is a planning tool. Keywords are not live until you sync them to your connected ad platform.
 
 ---
 

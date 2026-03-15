@@ -25,18 +25,18 @@ Click **Settings** in the sidebar to open the Settings page. The page is organiz
 
 The General tab contains your core AI and app preferences.
 
-### AI Provider (Premium)
+### AI Provider
 
-Premium users can choose between two AI providers:
+You can choose between two AI providers:
 
-- **Premium AI** (default for Pro users) — Uses your plan's AI allowance. No setup required. AI translations, generation, and image creation are handled automatically.
+- **Premium AI** (default) — Uses your plan's AI allowance. No setup required. AI translations, generation, and image creation are handled automatically.
 - **Your Own API Key** — Use your personal OpenAI key. You control costs directly.
 
 Toggle between the two options using the provider cards in the General tab. When "Your Own API Key" is selected, the API Key input field becomes visible.
 
 ### OpenAI API Key
 
-Your API key connects Defo Ads to OpenAI for AI-powered features. This field is only shown when using your own API key (always visible for free users, shown by toggling the provider for Premium users).
+Your API key connects Defo Ads to OpenAI for AI-powered features. This field is only shown when using your own API key.
 
 1. Get an API key from [platform.openai.com](https://platform.openai.com)
 2. Paste it into the **OpenAI API Key** field
@@ -50,7 +50,7 @@ Your API key connects Defo Ads to OpenAI for AI-powered features. This field is 
 - If you clear your browser data, you'll need to re-enter the key
 - You can remove the key at any time by clearing the field
 
-> **Tip:** You can use Defo Ads without an API key. All features work except AI generation. You can always add a key later, or upgrade to Premium for managed AI.
+> **Tip:** Using your own API key is optional. The default managed AI provider works out of the box with no setup required.
 
 ### AI Behavior: Custom Instructions
 
@@ -152,11 +152,9 @@ If you need to start fresh or want to remove all your data:
 
 ---
 
-## Premium Settings
+## Additional Settings Tabs
 
-> **Premium Feature** -- Premium subscribers have access to additional settings tabs.
-
-Premium adds these tabs to the Settings page:
+Additional tabs are available depending on your plan:
 
 - **Team** — Manage team members, invite collaborators, set permissions. See [Team Collaboration](../premium/team-collaboration.md).
 - **Notifications** — Configure email and notification preferences.
@@ -165,7 +163,7 @@ Premium adds these tabs to the Settings page:
 
 > **Note:** Account management including deleting your account is available from the [User Profile](../premium/user-profile.md) page.
 
-Premium users can choose to use the managed Premium AI provider (no API key needed) or their own OpenAI key. See the [AI Provider](#ai-provider-premium) section above.
+You can choose to use the managed AI provider (no API key needed) or your own OpenAI key. See the [AI Provider](#ai-provider) section above.
 
 > **Note:** Platform connections (Google Ads, Microsoft Advertising) are managed from the dedicated **Connections** page in the sidebar, not from Settings. See [Connections](../premium/integrations.md).
 
@@ -175,21 +173,15 @@ Premium users can choose to use the managed Premium AI provider (no API key need
 
 ### Where is my data stored?
 
-In the **free version**, all data is stored in your browser's localStorage. Clearing browser data will delete your campaigns. Back up regularly using [Import & Export](import-export.md).
-
-In the **premium version**, data is stored securely in the cloud and synced across devices.
+Your data is stored securely in the cloud and synced across devices. You can access your campaigns from any browser or device by signing in to your account.
 
 ### Can I use Defo Ads without an API key?
 
-Yes. All campaign management features work without an API key. Only AI-powered features (generation, review, translation) require either an API key (free) or a Premium subscription.
+Yes. Managed AI is included with all plans — no API key needed. If you prefer to use your own OpenAI key, you can configure it in **Settings > General**.
 
-### How do I transfer my data to a new browser?
+### How do I transfer my data to a new device?
 
-1. In your current browser: go to the **Import / Export** page, select **Export > JSON** (all campaigns)
-2. In your new browser: Open Defo Ads, complete the welcome wizard
-3. Go to the **Import / Export** page, select **Import > JSON** and upload your backup file
-
-> **Note:** In the free version, Import / Export is in the sidebar. In Premium, access it via **Sync > Open Import / Export** at the bottom of the Sync page.
+Simply sign in to your Defo Ads account on the new device. Your campaigns are stored in the cloud and automatically available.
 
 ---
 

@@ -41,7 +41,7 @@ Select multiple campaigns using the checkboxes to perform bulk actions:
 - **Delete** — Permanently remove the selected campaigns and all their ad groups, ads, and keywords
 - **Duplicate** — Create copies of the selected campaigns (see [Duplicating Campaigns](#duplicating-campaigns) below)
 
-> **Note:** Deletion cannot be undone. If you are using the free version, make sure you have a backup (JSON export) before deleting campaigns.
+> **Note:** Deletion cannot be undone. Consider exporting a JSON backup before deleting campaigns.
 
 ---
 
@@ -129,7 +129,7 @@ This typically takes 15-60 seconds depending on how much content is being genera
 
 ![AI generation progress](../images/campaign-wizard-generation.png)
 
-> **Note:** In the free version, this uses your OpenAI API key. In Premium, it uses managed AI credits included in your subscription.
+> **Note:** This uses managed AI credits included in your plan. If you have configured your own OpenAI API key in Settings, that will be used instead.
 
 ### Step 6: Review and Create
 
@@ -199,7 +199,7 @@ Every campaign has a status that controls whether it will be active when synced 
 | **Enabled** | Campaign is active and will run when synced to your ad platform |
 | **Paused** | Campaign is paused and will not run |
 
-> **Note:** Status in Defo Ads is a planning tool. Campaigns are not live on your ad platform until you export them (free) or sync them (Premium). Changing status here prepares the campaign for its intended state.
+> **Note:** Status in Defo Ads is a planning tool. Campaigns are not live on your ad platform until you sync them. Changing status here prepares the campaign for its intended state.
 
 New campaigns default to **Paused** so you can review and refine before enabling.
 
@@ -214,7 +214,7 @@ Once your campaign is created, you can:
 - **Edit ads** — Refine headlines, descriptions, preview appearance. See [Ads](ads.md).
 - **Manage keywords** — Add, remove, or change match types. See [Keywords](keywords.md).
 - **Validate** — Check for errors and warnings before going live. See [Validation](validation.md).
-- **Export or Sync** — Download for offline editing (free) or sync to your ad platforms (Premium). See [Import & Export](import-export.md) or [Sync](../premium/sync.md).
+- **Export or Sync** — Download as CSV for offline editing or sync directly to your ad platforms. See [Import & Export](import-export.md) or [Sync](../premium/sync.md).
 
 ---
 

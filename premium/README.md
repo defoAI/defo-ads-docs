@@ -1,16 +1,14 @@
 [Home](../README.md) > Premium Features
 
-> **Premium Feature** — This feature requires a Defo Ads Premium subscription. [Compare plans](../getting-started/free-vs-premium.md)
-
 # Premium Features
 
-Defo Ads Premium unlocks the full power of campaign management with cloud sync, managed AI, Google Ads integration, performance analytics, and team collaboration. This page provides an overview of every premium feature and how to get started.
+Defo Ads includes cloud sync, managed AI, Google Ads integration, performance analytics, and team collaboration. This page provides an overview of every feature and how to get started.
 
 ---
 
-## What Premium Unlocks
+## What You Get
 
-Premium takes Defo Ads beyond local campaign drafting and gives you a connected, intelligent ads management platform. Here is what you get:
+Defo Ads is a connected, intelligent ads management platform. Here is what is included:
 
 ### Cloud Sync & Google Ads Integration
 
@@ -52,7 +50,7 @@ Premium takes Defo Ads beyond local campaign drafting and gives you a connected,
 
 ### Managed AI
 
-With Premium, you do not need to provide your own OpenAI API key. Defo Ads manages AI generation on the server side, giving you access to multiple AI models depending on your plan. Your daily token and image generation limits are included in your subscription.
+You do not need to provide your own OpenAI API key. Defo Ads manages AI generation on the server side, giving you access to multiple AI models depending on your plan. Your daily token and image generation limits are included in your subscription.
 
 ![Premium AI generation](../images/premium-ai-generation.png)
 
@@ -89,31 +87,6 @@ For full details on plans, pricing, and billing, see the [Subscription & Billing
 
 ---
 
-## Already Using the Free Version?
-
-If you have been using the free (open-source) version of Defo Ads, upgrading to Premium is straightforward:
-
-### What Happens When You Upgrade
-
-1. **Create an account** — Sign up with your email or Google account
-2. **Your local campaigns are preserved** — Campaigns stored in your browser remain accessible
-3. **Cloud sync activates** — Your campaigns can now be synced to the cloud for access on any device
-4. **AI switches to managed** — No more need for your own OpenAI API key (though you can still use one if you prefer)
-
-### What You Keep
-
-- All campaigns you created in the free version stay in your browser's local storage
-- You can import them into your cloud account via the sync features
-- Your workflow and interface remain familiar — Premium adds features on top of the same experience
-
-### Free Version Still Works
-
-Even after upgrading, the free open-source version continues to function independently. Premium is an extension, not a replacement. You can use both if you wish.
-
-![Upgrade to Premium](../images/premium-upgrade-prompt.png)
-
----
-
 ## Quick Start Checklist
 
 New to Premium? Follow this path to get the most out of your subscription:
@@ -130,13 +103,13 @@ New to Premium? Follow this path to get the most out of your subscription:
 
 ## Need Help?
 
-- [Getting Started Guide](../getting-started/free-vs-premium.md) — Compare free and premium features side by side
+- [Plans](../getting-started/plans.md) — Plan details and features
 - [Troubleshooting](../troubleshooting/) — Solutions for common issues
 - [Reference](../reference/) — Detailed technical reference
 
 ---
 
 **Related:**
-- [Free vs Premium Comparison](../getting-started/free-vs-premium.md)
+- [Plans](../getting-started/plans.md)
 - [Subscription & Billing](subscription.md)
 - [Getting Started Guide](../getting-started/)

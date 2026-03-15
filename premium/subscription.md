@@ -1,6 +1,6 @@
 [Home](../README.md) > [Premium](README.md) > Subscription & Billing
 
-> **Premium Feature** — This feature requires a Defo Ads Premium subscription. [Compare plans](../getting-started/free-vs-premium.md)
+> See [Plans](../getting-started/plans.md) for a full feature overview.
 
 # Subscription & Billing
 
@@ -174,7 +174,7 @@ Note: If your current usage exceeds the lower plan's limits (for example, more c
 3. Click "Cancel Subscription"
 4. Confirm the cancellation
 5. Your subscription remains active until the end of the current billing period
-6. After cancellation, your account reverts to free-tier access
+6. After cancellation, your account enters read-only mode
 
 ![Subscription management](../images/subscription-management-page.png)
 
@@ -252,5 +252,5 @@ This depends on the currently configured plans. Check the plan selection page fo
 
 **Related:**
 - [User Profile](user-profile.md) — View your subscription and usage
-- [Free vs Premium Comparison](../getting-started/free-vs-premium.md) — Feature comparison
+- [Plans](../getting-started/plans.md) — Feature overview
 - [Premium Features Overview](README.md) — All premium features
