@@ -28,7 +28,7 @@ When you first visit Defo Ads, the **onboarding wizard** guides you through setu
 1. **Welcome** — Choose your language (English, Deutsch, or Français) and click **Get Started**
 2. **Account** — Sign in with Google (or accept terms if returning). No password needed.
 3. **About You** — Optionally enter your organization name and select what you want to use Defo Ads for
-4. **Choose a Plan** — Select a plan (Free Trial, Pro, or Business). Free/trial plans are claimed instantly; paid plans redirect to Stripe checkout.
+4. **Choose a Plan** — Select from the available plans. Free trial plans are claimed instantly; paid plans redirect to Stripe checkout.
 5. **Connect Platforms** — Optionally connect Google Ads and/or Microsoft Advertising via OAuth
 6. **Done** — Review your setup summary and choose what to do first
 

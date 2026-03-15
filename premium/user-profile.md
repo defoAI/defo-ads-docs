@@ -63,7 +63,7 @@ Below your account details, the subscription section shows the current state of 
 | **Active** | Your subscription is current and all premium features are available |
 | **Trialing** | You are on a free trial — features are available with trial-level quotas |
 | **Canceled** | You canceled but access continues until the period end date |
-| **Expired** | Your trial or subscription has ended — premium features are paused |
+| **Expired** | Your trial or subscription has ended — account is in read-only mode. Upgrade to restore full access. |
 
 ![Subscription status card](../images/user-profile-subscription-status.png)
 
@@ -243,12 +243,12 @@ The User Profile page is organized into clear sections from top to bottom:
 |  [Upgrade]                                         |
 +---------------------------------------------------+
 |  Usage                                             |
-|  AI Tokens:    12,450 / 50,000    Resets in 6h    |
-|  Storage:      18.3 MB / 100 MB                   |
-|  Campaigns:    7 / 25                              |
+|  AI Tokens:    (used) / (limit)   Resets in Xh     |
+|  Storage:      (used) / (limit)                    |
+|  Campaigns:    (count) / (limit)                   |
 +---------------------------------------------------+
 |  Billing                                           |
-|  Next payment: $29.00 on Mar 15, 2026             |
+|  Next payment: (amount) on (date)                 |
 |  Card: **** 4242                                   |
 |  [Manage Subscription]                             |
 +---------------------------------------------------+

@@ -46,20 +46,21 @@ In the free version, AI requests go directly from your browser to OpenAI using y
 
 Premium plans include cloud storage, managed AI, and additional features. Limits are **dynamic and configured per plan** -- they may vary based on your subscription tier and can change over time.
 
-### Typical Plan Limits
+### Plan Limits
 
-The following table shows example limits. Your actual limits depend on your specific plan. Check your [User Profile](../premium/user-profile.md) for your current plan details.
+Limits are configured per plan and can be adjusted at any time by admins. The resources governed by plan limits include:
 
-| Resource | Free Trial (Example) | Pro Plan (Example) |
-|----------|---------------------|-------------------|
-| **Campaigns** | 3 | Unlimited |
-| **Daily AI tokens** | 10,000 | 300,000 |
-| **Daily image generations** | 5 | 50 |
-| **Image upload size** | 5 MB per file | 5 MB per file |
-| **Storage quota** | Per plan | Per plan |
-| **Google Ads accounts** | 1 | Multiple |
+| Resource | Description |
+|----------|-------------|
+| **Campaigns** | Maximum active campaigns |
+| **Daily AI tokens** | Daily allowance for AI text generation |
+| **Daily image generations** | Daily AI-generated images |
+| **Image upload size** | Maximum file size per upload |
+| **Storage quota** | Total cloud storage allocation |
+| **Platform accounts** | Google Ads / Microsoft Ads accounts |
+| **Scheduler slots** | Number of automated sync schedules |
 
-> **Note:** These are examples only. Exact limits vary by plan and can be updated. Always check your plan details in the app for current limits.
+> **Note:** Exact limits vary by plan and can change. Check your [User Profile](../premium/user-profile.md) for your current plan details and usage.
 
 ### AI Token Limits
 
@@ -124,9 +125,9 @@ When you reach a daily limit, the following happens:
 
 ## Campaign Limits
 
-### Free Trial Campaign Limit
+### Campaign Limit on Lower Plans
 
-If your Premium plan has a campaign limit (e.g., 3 campaigns on a free trial):
+If your plan has a campaign limit:
 
 - You can create campaigns up to the limit
 - To create more, you must delete an existing campaign or upgrade your plan

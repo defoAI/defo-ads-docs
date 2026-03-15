@@ -71,7 +71,7 @@ Push, pull, and remove campaigns across platforms with a clear section-based lay
 | **Platforms** | Export to CSV/JSON | Direct Google Ads & Microsoft Ads sync |
 | **Collaboration** | Single user | Teams with shared campaigns |
 | **Analytics** | Manual tracking | Real-time performance dashboard |
-| **Price** | Free forever | Free trial, then from $29/mo |
+| **Price** | Free forever | Free trial, then paid plans |
 
 [Full comparison](getting-started/free-vs-premium.md)
 

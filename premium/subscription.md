@@ -4,44 +4,33 @@
 
 # Subscription & Billing
 
-Defo Ads Premium offers flexible subscription plans to match your needs. Plans are dynamically configured and may include options such as Free Trial, Pro, and Business tiers. This guide covers everything about choosing a plan, managing your subscription, and handling billing.
+Defo Ads Premium offers flexible subscription plans to match your needs. Plans are dynamically configured and managed by admins — the available tiers, prices, and limits may change. This guide covers choosing a plan, managing your subscription, and handling billing.
 
 ---
 
 ## Available Plans
 
-Defo Ads offers multiple subscription tiers. Plans are configured dynamically, so the exact offerings may vary. Here is what a typical plan lineup looks like:
+Defo Ads offers multiple subscription tiers. Plans are **configured dynamically** by admins, so the exact offerings, prices, and limits may change. View the current plans in the app at any time.
 
 ### Free Trial
 
 Every new account starts with a free trial that gives you access to premium features for a limited period. The trial activates automatically when you sign up — no credit card required.
 
-- **Duration:** Configured per deployment (typically 7-14 days)
-- **AI tokens:** Limited daily allocation
-- **Image generation:** Limited daily allocation
-- **Campaigns:** Restricted campaign count
-- **Purpose:** Explore all premium features before committing
+- **Duration:** Configured per deployment
+- **Full feature access:** All premium features with reduced quotas
+- **No credit card:** Explore everything before committing
 
-### Pro Plan
+### Paid Plans
 
-The standard premium tier for individual advertisers and small businesses.
+Paid plans scale by usage limits and feature access. Higher tiers typically include:
 
-- **AI tokens:** Higher daily limit for text generation
-- **Image generation:** More daily image generations
-- **Campaigns:** Increased campaign limit
-- **AI models:** Access to additional AI model options
-- **Google Ads sync:** Full bidirectional sync capabilities
+- Higher daily AI token and image generation limits
+- More platform accounts (Google Ads, Microsoft Ads)
+- Access to more capable AI models
+- Team collaboration features
+- More scheduler slots for automated syncs
 
-### Business Plan
-
-For teams and agencies managing multiple accounts.
-
-- **AI tokens:** Highest daily allocation
-- **Image generation:** Maximum daily image limit
-- **Campaigns:** Highest or unlimited campaign count
-- **AI models:** Full selection of AI models
-- **Team features:** Collaboration and shared workspaces
-- **Priority support:** Faster response times
+The exact plans, prices, and features are displayed on the plan selection page in the app and may be updated at any time.
 
 ![Plan comparison](../images/subscription-plan-comparison.png)
 
@@ -85,11 +74,11 @@ Higher-tier plans unlock access to more capable AI models. The available models 
 The top navigation bar displays your current plan status at all times:
 
 - **Free Plan** — Gray icon with "Free Plan" label
-- **Trial (7+ days remaining)** — Green indicator with days remaining (e.g., "Pro Trial · 14 days left")
+- **Trial (7+ days remaining)** — Green indicator with days remaining
 - **Trial (3-7 days)** — Amber/warning color
-- **Trial (< 3 days)** — Red with pulsing dot animation (e.g., "Pro Trial · 2 days left")
+- **Trial (< 3 days)** — Red with pulsing dot animation and countdown
 - **Trial Expired** — Red warning icon with "Trial Expired · Upgrade" link
-- **Active Paid Plan** — Green indicator with plan name and renewal date (e.g., "Pro Plan · Renews March 15, 2026")
+- **Active Paid Plan** — Green indicator with plan name and renewal date
 
 Click the plan status indicator at any time to navigate to the plan selection page.
 
@@ -108,13 +97,15 @@ While the trial is active, you can:
 
 ### When Your Trial Expires
 
-After the trial period ends:
+After the trial period ends, your account enters **read-only mode**:
 
-- **Premium features pause** — Sync, managed AI, and analytics become unavailable
-- **Your data is preserved** — Campaigns and settings remain in your account
-- **Two paths forward:**
-  1. **Subscribe to a plan** to restore full premium access
-  2. **Use your own OpenAI API key** to continue with AI features in the free tier
+- **Your data is safe** — All campaigns, ad groups, ads, and keywords are preserved and visible
+- **Read-only access** — You can view all your data but cannot create, edit, delete, or sync
+- **AI features paused** — AI generation and chat are unavailable until you upgrade
+- **Upgrade prompt** — A gate screen shows exactly what you've built and offers a direct path to upgrade
+- **Persistent banner** — A reminder banner stays visible across all views
+
+You will receive email notifications as your trial approaches expiry (3 days before, 1 day before, and on the day of expiry) so there are no surprises.
 
 ![Trial expiration notice](../images/subscription-trial-expiring.png)
 
@@ -221,26 +212,22 @@ Refund policies are determined by the Defo Ads terms of service. Contact support
 
 ## After Your Trial Expires
 
-If you choose not to subscribe after your trial ends, you still have options:
+When your trial ends, your account enters read-only mode. You have two options:
 
-### Option 1: Subscribe to a Plan
+### Option 1: Upgrade to a Paid Plan
 
-The most straightforward path. Choose any plan to restore full premium access. See [Subscribing to a Plan](#subscribing-to-a-plan) above.
+The recommended path. Choose any paid plan to restore full access immediately. Your campaigns, ads, and keywords are exactly where you left them.
 
-### Option 2: Use Your Own OpenAI API Key
+1. Click "Upgrade Now" from the gate screen or the persistent banner
+2. Select a plan from the available options
+3. Complete checkout via Stripe
+4. Full access is restored instantly
 
-You can continue using Defo Ads in free mode by providing your own OpenAI API key:
+See [Subscribing to a Plan](#subscribing-to-a-plan) above for details.
 
-1. Go to Settings
-2. Enter your OpenAI API key
-3. AI features work directly against your OpenAI account
-4. You pay OpenAI directly for usage
+### Option 2: Stay in Read-Only Mode
 
-This option gives you AI-powered ad copy generation but does not include cloud sync, Google Ads integration, analytics, or team features.
-
-### Option 3: Use Without AI
-
-You can continue using Defo Ads as a manual campaign management tool without any AI features. Create and organize campaigns using the editor, and export them manually.
+You can continue to view all your data in read-only mode indefinitely. Your data is preserved — nothing is deleted. You can upgrade at any time to resume full access.
 
 ---
 
@@ -255,8 +242,8 @@ Your data is preserved in your account. If you resubscribe later, everything is 
 **Do unused AI tokens roll over?**
 No. Daily token and image generation limits reset every 24 hours.
 
-**Can I use my own OpenAI API key with a premium subscription?**
-Yes. You can choose between managed AI and your own API key regardless of your subscription tier.
+**What happens when my trial expires?**
+Your account enters read-only mode. All your data is preserved and visible — you just cannot create, edit, or sync until you upgrade.
 
 **Is there a yearly billing option?**
 This depends on the currently configured plans. Check the plan selection page for available billing cycles.
