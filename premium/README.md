@@ -22,10 +22,11 @@ Defo Ads is a connected, intelligent ads management platform. Here is what is in
 | **Connections** | Manage all connected advertising platforms from one dedicated page | [Connections](integrations.md) |
 | **Conversions** | Track and manage conversion actions across platforms | [Conversions](conversions.md) |
 
-### AI & Content
+### AI & Automation
 
 | Feature | Description | Learn More |
 |---------|-------------|------------|
+| **AI Autopilot** | 24/7 autonomous campaign optimization across Google Ads and Microsoft Advertising — bid management, ad testing, budget allocation, and audience targeting on full autopilot | [AI Autopilot](autopilot.md) |
 | **Managed AI** | Server-side AI generation with no API key needed | [AI Assistant](../guides/ai-assistant.md) |
 | **AI Assistant** | Chat-based campaign management using natural language | [AI Assistant](../guides/ai-assistant.md) |
 | **Asset Library** | Centralized image and logo management for campaigns | [Asset Library](asset-library.md) |
