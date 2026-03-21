@@ -22,11 +22,17 @@ Defo Ads is a connected, intelligent ads management platform. Here is what is in
 | **Connections** | Manage all connected advertising platforms from one dedicated page | [Connections](integrations.md) |
 | **Conversions** | Track and manage conversion actions across platforms | [Conversions](conversions.md) |
 
-### AI & Automation
+### Budget & Optimization
 
 | Feature | Description | Learn More |
 |---------|-------------|------------|
+| **Global Budget** | Set a single daily or monthly budget for your entire account with automatic distribution across campaigns, real-time pacing, and spend tracking | [Budget Management](budget.md) |
 | **AI Autopilot** | 24/7 autonomous campaign optimization across Google Ads and Microsoft Advertising — bid management, ad testing, budget allocation, and audience targeting on full autopilot | [AI Autopilot](autopilot.md) |
+
+### AI & Creative
+
+| Feature | Description | Learn More |
+|---------|-------------|------------|
 | **Managed AI** | Server-side AI generation with no API key needed | [AI Assistant](../guides/ai-assistant.md) |
 | **AI Assistant** | Chat-based campaign management using natural language | [AI Assistant](../guides/ai-assistant.md) |
 | **Asset Library** | Centralized image and logo management for campaigns | [Asset Library](asset-library.md) |
@@ -95,6 +101,7 @@ New to Premium? Follow this path to get the most out of your subscription:
 - [ ] Sign up and activate your free trial
 - [ ] Connect your Google Ads account — [Google Ads Connection](google-ads-connection.md)
 - [ ] Import your existing campaigns — [Sync](sync.md)
+- [ ] Set your global budget — [Budget Management](budget.md)
 - [ ] Explore the Performance Dashboard — [Performance Dashboard](performance-dashboard.md)
 - [ ] Try the AI Assistant — [AI Assistant](../guides/ai-assistant.md)
 - [ ] Upload campaign assets — [Asset Library](asset-library.md)

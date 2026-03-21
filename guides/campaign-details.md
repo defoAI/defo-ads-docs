@@ -61,19 +61,17 @@ Enter the daily amount and the weekly and monthly estimates update in real time.
 
 > **Tip:** Ad platforms may spend up to twice your daily budget on high-traffic days, but will not exceed your monthly limit (daily budget x 30.4).
 
-#### Budget Cap (Premium)
+#### Global Budget (Premium)
 
-Premium users can set a **global budget cap** that limits total daily spending across all campaigns. Access the Budget Advisor from the sidebar to:
+Premium users can set a **global budget** that controls total spending across all campaigns. When a global budget is configured:
 
-- Set a **daily or monthly budget limit**
-- Choose a **distribution strategy**:
-  - **Split equally** — Distributes the budget evenly across all active campaigns
-  - **Manual** — Set per-campaign budgets using an inline editing grid
-- **Preview changes** before applying — see how the budget will be allocated
-- **Undo** — Revert the last budget cap application
-- View **spending trends** against your cap over time
+- A **context banner** appears on the campaign detail showing what percentage of your global budget this campaign uses and the remaining capacity for other campaigns
+- **Validation** prevents you from setting a budget that would cause all campaigns to exceed your global cap
+- In **Auto distribution mode**, editing a campaign's budget will lock it at your chosen amount — other campaigns redistribute the remaining budget automatically
 
-<!-- TODO: Add screenshot of Budget Advisor view -->
+![Campaign Budget with Global Context](../images/budget-campaign-detail-context.png)
+
+For full details on setting up and managing your global budget, see [Budget Management](../premium/budget.md).
 
 ### Bidding Strategy
 
